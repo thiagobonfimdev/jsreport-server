@@ -5089,3 +5089,81 @@ Unmatched or missing {{/formatPrice}}, in template:
 2025-07-23T14:20:50.432Z - info: Rendering request 12 finished in 74 ms rootId=px1z92e2jcjbed3, id=px1z92e2jcjbed3
 2025-07-24T02:46:27.977Z - info: fs store is loading data
 2025-07-24T03:11:23.138Z - info: fs store is loading data
+2025-07-28T22:41:03.879Z - info: Initializing jsreport (version: 4.9.0, configuration file: jsreport.config.json, nodejs: 21.6.0)
+2025-07-28T22:41:03.881Z - info: Searching for available extensions in /home/thiago/Documentos/Playback/jsreportapp/
+2025-07-28T22:41:03.882Z - info: Extensions location cache not found, crawling directories
+2025-07-28T22:41:03.958Z - info: Found 35 extension(s)
+2025-07-28T22:41:03.987Z - info: Using extension base@4.0.0
+2025-07-28T22:41:03.990Z - info: Using extension child-templates@4.1.0
+2025-07-28T22:41:03.992Z - info: Using extension cli@4.1.1
+2025-07-28T22:41:03.992Z - info: Using extension components@4.0.2
+2025-07-28T22:41:03.993Z - info: Using extension data@4.1.0
+2025-07-28T22:41:03.993Z - info: Using extension express@4.2.0
+2025-07-28T22:41:04.074Z - info: Using extension freeze@4.0.0
+2025-07-28T22:41:04.075Z - info: Using extension fs-store@4.1.1
+2025-07-28T22:41:04.102Z - info: Using extension handlebars@4.0.1
+2025-07-28T22:41:04.103Z - info: Using extension import-export@4.0.7
+2025-07-28T22:41:04.106Z - info: Using extension jsrender@4.0.0
+2025-07-28T22:41:04.106Z - info: Using extension licensing@4.0.5
+2025-07-28T22:41:04.107Z - info: Using extension localization@4.0.1
+2025-07-28T22:41:04.107Z - info: Using extension npm@4.0.0
+2025-07-28T22:41:04.108Z - info: Using extension pdf-utils@4.3.0
+2025-07-28T22:41:04.109Z - info: Using extension reports@4.1.4
+2025-07-28T22:41:04.112Z - info: Using extension tags@4.0.1
+2025-07-28T22:41:04.113Z - info: Using extension text@4.0.2
+2025-07-28T22:41:04.113Z - info: Using extension version-control@4.1.1
+2025-07-28T22:41:04.115Z - info: Using extension assets@4.2.2
+2025-07-28T22:41:04.118Z - info: Using extension authorization@4.1.0
+2025-07-28T22:41:04.119Z - info: Using extension browser-client@4.1.0
+2025-07-28T22:41:04.120Z - info: Using extension chrome-pdf@4.2.0
+2025-07-28T22:41:04.122Z - info: Using extension docx@4.8.0
+2025-07-28T22:41:04.123Z - info: Using extension html-to-xlsx@4.2.1
+2025-07-28T22:41:04.180Z - info: html-to-xlsx detected chrome as available html engine
+2025-07-28T22:41:04.180Z - info: Using extension pptx@4.4.1
+2025-07-28T22:41:04.181Z - info: Using extension scheduling@4.1.0
+2025-07-28T22:41:04.191Z - info: Using extension scripts@4.2.0
+2025-07-28T22:41:04.191Z - info: Using extension static-pdf@4.1.0
+2025-07-28T22:41:04.192Z - info: Using extension studio@4.3.1
+2025-07-28T22:41:04.221Z - info: Using extension xlsx@4.4.1
+2025-07-28T22:41:04.222Z - info: Using extension public-templates@4.0.0
+2025-07-28T22:41:04.222Z - info: Using extension sample-template@4.0.1
+2025-07-28T22:41:04.223Z - info: Using extension studio-theme-dark@4.0.0
+2025-07-28T22:41:04.224Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-07-28T22:41:04.224Z - info: Using fs provider for template store.
+2025-07-28T22:41:04.226Z - info: fs store is persisting using fs for /home/thiago/Documentos/Playback/jsreportapp/data
+2025-07-28T22:41:04.229Z - info: fs store is loading data
+2025-07-28T22:41:04.242Z - info: fs store is initialized successfully
+2025-07-28T22:41:04.247Z - info: Creating default express app.
+2025-07-28T22:41:04.256Z - info: jsreport server successfully started on http port: 5488
+2025-07-28T22:41:04.256Z - info: Verifying license key free
+2025-07-28T22:41:05.204Z - info: Starting one month enterprise trial
+2025-07-28T22:41:05.212Z - info: Initializing worker threads
+2025-07-28T22:41:05.444Z - info: 2 worker threads initialized in 232ms
+2025-07-28T22:41:05.444Z - info: Starting temp files cleanup with 180000ms threshold
+2025-07-28T22:41:05.445Z - info: reporter initialized
+2025-07-28T22:41:06.703Z - info: Render request 1 queued for execution and waiting for available worker rootId=gqkgb4y5fk7kwks, id=gqkgb4y5fk7kwks
+2025-07-28T22:41:06.719Z - info: Starting rendering request 1 rootId=gqkgb4y5fk7kwks, id=gqkgb4y5fk7kwks
+2025-07-28T22:41:06.720Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=gqkgb4y5fk7kwks, id=gqkgb4y5fk7kwks
+2025-07-28T22:41:07.538Z - info: Rendering request 1 finished in 835 ms rootId=gqkgb4y5fk7kwks, id=gqkgb4y5fk7kwks
+2025-07-28T22:44:13.566Z - info: Render request 2 queued for execution and waiting for available worker rootId=ayrfrkjwrx1zt9y, id=ayrfrkjwrx1zt9y
+2025-07-28T22:44:13.572Z - info: Starting rendering request 2 rootId=ayrfrkjwrx1zt9y, id=ayrfrkjwrx1zt9y
+2025-07-28T22:44:13.572Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=ayrfrkjwrx1zt9y, id=ayrfrkjwrx1zt9y
+2025-07-28T22:44:14.059Z - info: Rendering request 2 finished in 494 ms rootId=ayrfrkjwrx1zt9y, id=ayrfrkjwrx1zt9y
+2025-07-28T22:45:04.742Z - info: Render request 3 queued for execution and waiting for available worker rootId=j2c9br3s3vx1fa0, id=j2c9br3s3vx1fa0
+2025-07-28T22:45:04.746Z - info: Starting rendering request 3 rootId=j2c9br3s3vx1fa0, id=j2c9br3s3vx1fa0
+2025-07-28T22:45:04.746Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=j2c9br3s3vx1fa0, id=j2c9br3s3vx1fa0
+2025-07-28T22:45:04.824Z - info: Rendering request 3 finished in 82 ms rootId=j2c9br3s3vx1fa0, id=j2c9br3s3vx1fa0
+2025-07-28T22:46:28.013Z - info: Render request 4 queued for execution and waiting for available worker rootId=y6xv8vtcvtvvc1x, id=y6xv8vtcvtvvc1x
+2025-07-28T22:46:28.026Z - info: Starting rendering request 4 rootId=y6xv8vtcvtvvc1x, id=y6xv8vtcvtvvc1x
+2025-07-28T22:46:28.026Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=y6xv8vtcvtvvc1x, id=y6xv8vtcvtvvc1x
+2025-07-28T22:46:28.094Z - info: Rendering request 4 finished in 82 ms rootId=y6xv8vtcvtvvc1x, id=y6xv8vtcvtvvc1x
+2025-07-28T22:50:01.945Z - info: Render request 5 queued for execution and waiting for available worker rootId=mb52a2u4fwkwo8j, id=mb52a2u4fwkwo8j
+2025-07-28T22:50:01.951Z - info: Starting rendering request 5 rootId=mb52a2u4fwkwo8j, id=mb52a2u4fwkwo8j
+2025-07-28T22:50:01.951Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=mb52a2u4fwkwo8j, id=mb52a2u4fwkwo8j
+2025-07-28T22:50:02.031Z - info: Rendering request 5 finished in 86 ms rootId=mb52a2u4fwkwo8j, id=mb52a2u4fwkwo8j
+2025-07-28T22:50:51.703Z - info: Render request 6 queued for execution and waiting for available worker rootId=04y6xd0c196nf14, id=04y6xd0c196nf14
+2025-07-28T22:50:51.710Z - info: Starting rendering request 6 rootId=04y6xd0c196nf14, id=04y6xd0c196nf14
+2025-07-28T22:50:51.711Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=04y6xd0c196nf14, id=04y6xd0c196nf14
+2025-07-28T22:50:51.787Z - info: Rendering request 6 finished in 85 ms rootId=04y6xd0c196nf14, id=04y6xd0c196nf14
+2025-07-28T22:50:59.257Z - info: Closing jsreport instance
+2025-07-28T22:50:59.282Z - info: jsreport instance has been closed
