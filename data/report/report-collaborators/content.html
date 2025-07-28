@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Royalty Self-Billing Invoice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      font-size: 10pt;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    td {
+      padding: 2px 3px;
+      vertical-align: bottom;
+      overflow: hidden;
+    }
+    .text-right {
+      text-align: right;
+    }
+    .text-bold {
+      font-weight: bold;
+    }
+    .border-bottom {
+      border-bottom: 1px solid #000000;
+    }
+    .border-bottom-thick {
+      border-bottom: 2px solid #000000;
+    }
+    .border-left {
+      border-left: 1px solid #000000;
+    }
+    .border-right {
+      border-right: 1px solid #000000;
+    }
+    .title {
+      font-size: 16pt;
+    }
+    .footer {
+      white-space: normal;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <colgroup>
+      <col style="width:25%;">
+      <col style="width:25%;">
+      <col style="width:25%;">
+      <col style="width:25%;">
+    </colgroup>
+    <tbody>
+        <h1 class="title text-bold">Royalty Self-Billing Invoice Provided by Playback</h1>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>Invoice number: {{:invoiceNumber}}</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="text-bold border-bottom-thick">Gross Revenues Summary</td>
+        <td class="border-bottom-thick">&nbsp;</td>
+        <td class="border-bottom-thick">&nbsp;</td>
+        <td class="border-bottom-thick">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="text-bold border-bottom">Item</td>
+        <td class="text-bold border-bottom">Period</td>
+        <td class="border-bottom">&nbsp;</td>
+        <td class="text-bold text-right border-bottom">Total Amount (excl. VAT)</td>
+      </tr>
+      <tr>
+        <td class="border-left border-bottom">Believe International</td>
+        <td class="border-bottom">{{:periodCovered}}</td>
+        <td class="border-bottom">&nbsp;</td>
+        <td class="text-right border-right border-bottom">{{:grossRevenues}}</td>
+      </tr>
+      <tr>
+        <td class="text-bold">Total Gross Revenues excl. VAT</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td class="text-bold text-right">{{:totalGrossRevenues}}</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="text-bold border-bottom">Total allocation to APC REC</td>
+        <td class="text-bold border-bottom">Period</td>
+        <td class="border-bottom">&nbsp;</td>
+        <td class="text-bold text-right border-bottom">Total Amount (excl. VAT)</td>
+      </tr>
+      <tr>
+        <td class="border-left">Net Royalty</td>
+        <td>{{:periodCovered}}</td>
+        <td>&nbsp;</td>
+        <td class="text-right border-right">{{:netRoyalty}}</td>
+      </tr>
+      <tr>
+        <td class="border-left">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td class="border-right">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="border-left border-bottom">For allocation to APC REC with this report</td>
+        <td class="border-bottom">&nbsp;</td>
+        <td class="border-bottom">&nbsp;</td>
+        <td class="text-right border-right border-bottom">{{:allocationAmount}}</td>
+      </tr>
+      <tr>
+        <td>VAT balance</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td class="text-right">{{:vatBalance}}</td>
+      </tr>
+      <tr>
+        <td class="text-bold">Net payable</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td class="text-bold text-right">{{:netPayable}}</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="footer" colspan="4">
+          This report serves as a self-billing document prepared by Playback ApS. It can be used as documentation for accounting and tax reporting purposes. Please contact us if you have any questions.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

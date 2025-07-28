@@ -1,0 +1,27 @@
+{
+  "issuer": {
+    "company": "Playback ApS",
+    "cvr": "DK43092847",
+    "address": "Toldbodgade 89, 1253 Kebenhavn K, Danmark",
+    "email": "info@playback.studio"
+  },
+  "onBehalfOf": {
+    "company": "APC REC",
+    "cvr": "DK40801065"
+  },
+  "recipient": {
+    "name": "Sony Music Entertainment Denmark A/S",
+    "accountNumber": "DK1234567890",
+    "cvrCprNumber": "39932687",
+    "vatNumber": "DK32892027",
+    "vatRegistered": "YES"
+  },
+  "invoiceNumber": "2025_009",
+  "invoiceDate": "4/7/2025",
+  "periodCovered": "01/04/2023 - 31/03/2025",
+  "currency": "DKK",
+  "netRoyalty": "336,62",
+  "allocationAmount": "336,62",
+  "vatBalance": "84,16",
+  "netPayable": "420,78"
+}

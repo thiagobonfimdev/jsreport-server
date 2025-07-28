@@ -1,0 +1,35 @@
+{
+  "invoiceNumber": "INV-2025-007",
+  "invoiceDate": "2025-07-22",
+  "dueDate": "2025-08-05",
+  "issuer": {
+    "name": "Acme Music Publishing Ltd.",
+    "address": "123 Main Street, São Paulo, SP, Brazil",
+    "email": "finance@acmemusic.com",
+    "logo": "https://via.placeholder.com/300x80.png?text=Acme+Logo"
+  },
+  "recipient": {
+    "name": "Royalty Receiver Co.",
+    "address": "456 Payment Ave, Rio de Janeiro, RJ, Brazil",
+    "email": "accounting@royaltyco.com"
+  },
+  "currency": "USD",
+  "collaborators": [
+    {
+      "name": "Thiago Bonfim",
+      "amount": "1,500.00",
+      "currency": "USD"
+    },
+    {
+      "name": "Danielle Ricarte",
+      "amount": "2,000.00",
+      "currency": "USD"
+    },
+    {
+      "name": "Alisson Brito",
+      "amount": "1,250.00",
+      "currency": "USD"
+    }
+  ],
+  "netPayable": "4,750.00"
+}

@@ -1,0 +1,42 @@
+{
+  "invoiceNumber": "INV-2025-007",
+  "invoiceDate": "2025-07-22",
+  "dueDate": "2025-08-11",
+  "currency": "DKK",
+  "issuer": {
+    "name": "Playback ApS",
+    "logo": "https://playback.dk/logo.png",
+    "address": "Toldbodgade 89, 1253 København K, Denmark",
+    "email": "accounting@playback.dk",
+    "cvr": "DK43092847"
+  },
+  "recipient": {
+    "name": "Universal Music Denmark",
+    "address": "Vesterbrogade 1A, 1620 København V",
+    "email": "royalties@universalmusic.dk"
+  },
+  "collaborators": [
+    {
+      "name": "Lars Ulrich",
+      "amount": "15,000.00",
+      "currency": "DKK"
+    },
+    {
+      "name": "MØ (Karen Marie Aagaard)",
+      "amount": "8,750.50",
+      "currency": "DKK"
+    },
+    {
+      "name": "Colaborador sem nome",
+      "amount": "3,200.00",
+      "currency": "DKK"
+    }
+  ],
+  "netPayable": "26,950.50",
+  "breakdown": {
+    "subtotal": "26,950.50",
+    "vatRate": "0%",
+    "vatAmount": "0.00",
+    "total": "26,950.50"
+  }
+}

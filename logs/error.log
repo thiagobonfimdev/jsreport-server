@@ -1,0 +1,425 @@
+2025-07-22T12:07:44.664Z - error: Error when processing render request 5
+(because) failed to launch the browser process!
+[89380:89380:0722/090744.547666:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x5ee27e05736a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x5ee283a70614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x7d090d045330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x7d090d04527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x7d090d0288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x5ee283a684f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x5ee283a3098d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x5ee283a30927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x5ee27ce400da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x5ee27f06ecc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x5ee27e101ea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x5ee28306dc66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x5ee27dda3074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x5ee27dda1cef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x7d090d02a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x7d090d02a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x5ee2800e583a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 000030c0000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffd42a70ab8
+  di: 0000000000015d24  si: 0000000000015d24  bp: 00007ffd42a70430  bx: 0000000000015d24
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007d090d09eb2c  sp: 00007ffd42a703f0
+  ip: 00007d090d09eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Error: Failed to launch the browser process!
+[89380:89380:0722/090744.547666:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x5ee27e05736a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x5ee283a70614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x7d090d045330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x7d090d04527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x7d090d0288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x5ee283a684f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x5ee283a3098d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x5ee283a30927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x5ee27ce400da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x5ee27f06ecc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x5ee27e101ea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x5ee28306dc66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x5ee27dda3074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x5ee27dda1cef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x7d090d02a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x7d090d02a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x5ee2800e583a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 000030c0000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffd42a70ab8
+  di: 0000000000015d24  si: 0000000000015d24  bp: 00007ffd42a70430  bx: 0000000000015d24
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007d090d09eb2c  sp: 00007ffd42a703f0
+  ip: 00007d090d09eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+  at ChildProcess.onClose (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@puppeteer/browsers/lib/cjs/launch.js:325:24)
+  at ChildProcess.emit (node:events:531:35)
+  at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+  at Process.callbackTrampoline (node:internal/async_hooks:130:17) rootId=ws2tic5vsex6guj, id=ws2tic5vsex6guj
+2025-07-22T12:07:44.664Z - error: Rendering request 5 finished with error in 272 ms rootId=ws2tic5vsex6guj, id=ws2tic5vsex6guj
+2025-07-22T12:07:44.665Z - error: Error during processing request at http://localhost:5488/api/report
+2025-07-22T12:09:00.144Z - error: Error when processing render request 6
+(because) failed to launch the browser process!
+[90453:90453:0722/090900.027855:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x5a4d8287736a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x5a4d88290614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x7efb07845330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x7efb0784527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x7efb078288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x5a4d882884f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x5a4d8825098d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x5a4d88250927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x5a4d816600da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x5a4d8388ecc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x5a4d82921ea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x5a4d8788dc66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x5a4d825c3074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x5a4d825c1cef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x7efb0782a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x7efb0782a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x5a4d8490583a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 00000530000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffe6daba198
+  di: 0000000000016155  si: 0000000000016155  bp: 00007ffe6dab9b10  bx: 0000000000016155
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007efb0789eb2c  sp: 00007ffe6dab9ad0
+  ip: 00007efb0789eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Error: Failed to launch the browser process!
+[90453:90453:0722/090900.027855:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x5a4d8287736a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x5a4d88290614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x7efb07845330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x7efb0784527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x7efb078288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x5a4d882884f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x5a4d8825098d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x5a4d88250927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x5a4d816600da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x5a4d8388ecc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x5a4d82921ea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x5a4d8788dc66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x5a4d825c3074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x5a4d825c1cef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x7efb0782a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x7efb0782a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x5a4d8490583a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 00000530000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffe6daba198
+  di: 0000000000016155  si: 0000000000016155  bp: 00007ffe6dab9b10  bx: 0000000000016155
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007efb0789eb2c  sp: 00007ffe6dab9ad0
+  ip: 00007efb0789eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+  at ChildProcess.onClose (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@puppeteer/browsers/lib/cjs/launch.js:325:24)
+  at ChildProcess.emit (node:events:531:35)
+  at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+  at Process.callbackTrampoline (node:internal/async_hooks:130:17) rootId=54otnbbwlrye9i8, id=54otnbbwlrye9i8
+2025-07-22T12:09:00.144Z - error: Rendering request 6 finished with error in 199 ms rootId=54otnbbwlrye9i8, id=54otnbbwlrye9i8
+2025-07-22T12:09:00.145Z - error: Error during processing request at http://localhost:5488/api/report
+2025-07-22T12:18:54.328Z - error: Error when processing render request 9
+(because) failed to launch the browser process!
+[97799:97799:0722/091854.218232:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x6043a714436a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x6043acb5d614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x7f732d245330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x7f732d24527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x7f732d2288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x6043acb554f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x6043acb1d98d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x6043acb1d927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x6043a5f2d0da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x6043a815bcc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x6043a71eeea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x6043ac15ac66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x6043a6e90074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x6043a6e8ecef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x7f732d22a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x7f732d22a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x6043a91d283a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 00000e60000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffda6dd3158
+  di: 0000000000017e07  si: 0000000000017e07  bp: 00007ffda6dd2ad0  bx: 0000000000017e07
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007f732d29eb2c  sp: 00007ffda6dd2a90
+  ip: 00007f732d29eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Error: Failed to launch the browser process!
+[97799:97799:0722/091854.218232:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x6043a714436a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x6043acb5d614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x7f732d245330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x7f732d24527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x7f732d2288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x6043acb554f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x6043acb1d98d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x6043acb1d927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x6043a5f2d0da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x6043a815bcc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x6043a71eeea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x6043ac15ac66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x6043a6e90074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x6043a6e8ecef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x7f732d22a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x7f732d22a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x6043a91d283a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 00000e60000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffda6dd3158
+  di: 0000000000017e07  si: 0000000000017e07  bp: 00007ffda6dd2ad0  bx: 0000000000017e07
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007f732d29eb2c  sp: 00007ffda6dd2a90
+  ip: 00007f732d29eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+  at ChildProcess.onClose (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@puppeteer/browsers/lib/cjs/launch.js:325:24)
+  at ChildProcess.emit (node:events:531:35)
+  at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+  at Process.callbackTrampoline (node:internal/async_hooks:130:17) rootId=ftgpl2g0vx41i3w, id=ftgpl2g0vx41i3w
+2025-07-22T12:18:54.328Z - error: Rendering request 9 finished with error in 461 ms rootId=ftgpl2g0vx41i3w, id=ftgpl2g0vx41i3w
+2025-07-22T12:18:54.330Z - error: Error during processing request at http://localhost:5488/api/report
+2025-07-22T12:20:48.763Z - error: Error when processing render request 10
+(because) failed to launch the browser process!
+[99233:99233:0722/092048.656178:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x55ec4209336a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x55ec47aac614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x7eff30c45330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x7eff30c4527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x7eff30c288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x55ec47aa44f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x55ec47a6c98d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x55ec47a6c927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x55ec40e7c0da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x55ec430aacc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x55ec4213dea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x55ec470a9c66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x55ec41ddf074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x55ec41dddcef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x7eff30c2a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x7eff30c2a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x55ec4412183a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 000021d8000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffebc2da3d8
+  di: 00000000000183a1  si: 00000000000183a1  bp: 00007ffebc2d9d50  bx: 00000000000183a1
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007eff30c9eb2c  sp: 00007ffebc2d9d10
+  ip: 00007eff30c9eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Error: Failed to launch the browser process!
+[99233:99233:0722/092048.656178:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x55ec4209336a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x55ec47aac614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x7eff30c45330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x7eff30c4527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x7eff30c288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x55ec47aa44f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x55ec47a6c98d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x55ec47a6c927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x55ec40e7c0da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x55ec430aacc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x55ec4213dea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x55ec470a9c66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x55ec41ddf074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x55ec41dddcef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x7eff30c2a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x7eff30c2a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x55ec4412183a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 000021d8000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffebc2da3d8
+  di: 00000000000183a1  si: 00000000000183a1  bp: 00007ffebc2d9d50  bx: 00000000000183a1
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007eff30c9eb2c  sp: 00007ffebc2d9d10
+  ip: 00007eff30c9eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+  at ChildProcess.onClose (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@puppeteer/browsers/lib/cjs/launch.js:325:24)
+  at ChildProcess.emit (node:events:531:35)
+  at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+  at Process.callbackTrampoline (node:internal/async_hooks:130:17) rootId=44gve2o063bdk3b, id=44gve2o063bdk3b
+2025-07-22T12:20:48.763Z - error: Rendering request 10 finished with error in 500 ms rootId=44gve2o063bdk3b, id=44gve2o063bdk3b
+2025-07-22T12:20:48.766Z - error: Error during processing request at http://localhost:5488/api/report
+2025-07-22T12:21:16.809Z - error: Error when processing render request 1
+(because) failed to launch the browser process!
+[99661:99661:0722/092116.707186:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x5dfc0fe3f36a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x5dfc15858614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x71420e245330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x71420e24527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x71420e2288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x5dfc158504f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x5dfc1581898d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x5dfc15818927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x5dfc0ec280da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x5dfc10e56cc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x5dfc0fee9ea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x5dfc14e55c66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x5dfc0fb8b074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x5dfc0fb89cef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x71420e22a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x71420e22a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x5dfc11ecd83a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 000002e0000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffff6cc0e68
+  di: 000000000001854d  si: 000000000001854d  bp: 00007ffff6cc07e0  bx: 000000000001854d
+  dx: 0000000000000006  ax: 0000000000000000  cx: 000071420e29eb2c  sp: 00007ffff6cc07a0
+  ip: 000071420e29eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Error: Failed to launch the browser process!
+[99661:99661:0722/092116.707186:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x5dfc0fe3f36a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x5dfc15858614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x71420e245330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x71420e24527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x71420e2288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x5dfc158504f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x5dfc1581898d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x5dfc15818927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x5dfc0ec280da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x5dfc10e56cc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x5dfc0fee9ea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x5dfc14e55c66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x5dfc0fb8b074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x5dfc0fb89cef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x71420e22a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x71420e22a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x5dfc11ecd83a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 000002e0000ec4e5  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000266 r14: 0000000000000016 r15: 00007ffff6cc0e68
+  di: 000000000001854d  si: 000000000001854d  bp: 00007ffff6cc07e0  bx: 000000000001854d
+  dx: 0000000000000006  ax: 0000000000000000  cx: 000071420e29eb2c  sp: 00007ffff6cc07a0
+  ip: 000071420e29eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+  at ChildProcess.onClose (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@puppeteer/browsers/lib/cjs/launch.js:325:24)
+  at ChildProcess.emit (node:events:531:35)
+  at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+  at Process.callbackTrampoline (node:internal/async_hooks:130:17) rootId=d0p6gmshpt14v0q, id=d0p6gmshpt14v0q
+2025-07-22T12:21:16.809Z - error: Rendering request 1 finished with error in 466 ms rootId=d0p6gmshpt14v0q, id=d0p6gmshpt14v0q
+2025-07-22T12:21:16.812Z - error: Error during processing request at http://localhost:5488/api/report
+2025-07-22T12:26:51.834Z - error: Error when processing render request 2
+(because) failed to launch the browser process!
+[103662:103662:0722/092651.733317:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x5ebfb753436a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x5ebfbcf4d614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x733bf2c45330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x733bf2c4527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x733bf2c288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x5ebfbcf454f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x5ebfbcf0d98d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x5ebfbcf0d927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x5ebfb631d0da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x5ebfb854bcc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x5ebfb75deea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x5ebfbc54ac66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x5ebfb7280074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x5ebfb727ecef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x733bf2c2a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x733bf2c2a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x5ebfb95c283a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 00001b50000ec4e7  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000268 r14: 0000000000000016 r15: 00007ffd30851ef8
+  di: 00000000000194ee  si: 00000000000194ee  bp: 00007ffd30851870  bx: 00000000000194ee
+  dx: 0000000000000006  ax: 0000000000000000  cx: 0000733bf2c9eb2c  sp: 00007ffd30851830
+  ip: 0000733bf2c9eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Error: Failed to launch the browser process!
+[103662:103662:0722/092651.733317:FATAL:content/browser/zygote_host/zygote_host_impl_linux.cc:132] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+Received signal 6
+#0 0x5ebfb753436a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4f15369)
+#1 0x5ebfbcf4d614 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa92e613)
+#2 0x733bf2c45330 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4532f)
+#3 0x733bf2c4527e (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4527d)
+#4 0x733bf2c288ff (/usr/lib/x86_64-linux-gnu/libc.so.6+0x288fe)
+#5 0x5ebfbcf454f5 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa9264f4)
+#6 0x5ebfbcf0d98d (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee98c)
+#7 0x5ebfbcf0d927 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0xa8ee926)
+#8 0x5ebfb631d0da (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x3cfe0d9)
+#9 0x5ebfb854bcc9 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x5f2ccc8)
+#10 0x5ebfb75deea6 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4fbfea5)
+#11 0x5ebfbc54ac66 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x9f2bc65)
+#12 0x5ebfb7280074 (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c61073)
+#13 0x5ebfb727ecef (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x4c5fcee)
+#14 0x733bf2c2a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9)
+#15 0x733bf2c2a28b (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28a)
+#16 0x5ebfb95c283a (/home/thiago/.cache/puppeteer/chrome/linux-136.0.7103.49/chrome-linux64/chrome+0x6fa3839)
+  r8: 00001b50000ec4e7  r9: 0000000000000001 r10: 0000000000000008 r11: 0000000000000246
+ r12: 0000000000000006 r13: 0000000000000268 r14: 0000000000000016 r15: 00007ffd30851ef8
+  di: 00000000000194ee  si: 00000000000194ee  bp: 00007ffd30851870  bx: 00000000000194ee
+  dx: 0000000000000006  ax: 0000000000000000  cx: 0000733bf2c9eb2c  sp: 00007ffd30851830
+  ip: 0000733bf2c9eb2c efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+  at ChildProcess.onClose (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@puppeteer/browsers/lib/cjs/launch.js:325:24)
+  at ChildProcess.emit (node:events:531:35)
+  at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+  at Process.callbackTrampoline (node:internal/async_hooks:130:17) rootId=fitzcv2wd7d0p6m, id=fitzcv2wd7d0p6m
+2025-07-22T12:26:51.834Z - error: Rendering request 2 finished with error in 469 ms rootId=fitzcv2wd7d0p6m, id=fitzcv2wd7d0p6m
+2025-07-22T12:26:51.836Z - error: Error during processing request at http://localhost:5488/api/report
+2025-07-22T12:54:57.318Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1893:16)
+    at listenInCluster (node:net:1941:12)
+    at Server.listen (node:net:2029:7)
+    at /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:16:10)
+    at /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:50:14
+    at Object.start (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:125:13)
+    at Object.<anonymous> (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:333:30)
+    at async ListenerCollection.fire (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)

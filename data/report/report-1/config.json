@@ -1,0 +1,17 @@
+{
+    "name": "report-1",
+    "engine": "jsrender",
+    "recipe": "chrome-pdf",
+    "shortid": "gpSg2G72b",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1753189501518
+    },
+    "modificationDate": {
+        "$$date": 1753189501518
+    },
+    "_id": "DXvek3npeT558TbC",
+    "$entitySet": "templates"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "report-collaborators",
+    "engine": "jsrender",
+    "recipe": "chrome-pdf",
+    "shortid": "_TWx01KcK",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1753193609233
+    },
+    "modificationDate": {
+        "$$date": 1753280060286
+    },
+    "_id": "0kC8wUFFycKM43wz",
+    "$entitySet": "templates"
+}
