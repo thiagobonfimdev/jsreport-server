@@ -5167,3 +5167,359 @@ Unmatched or missing {{/formatPrice}}, in template:
 2025-07-28T22:50:51.787Z - info: Rendering request 6 finished in 85 ms rootId=04y6xd0c196nf14, id=04y6xd0c196nf14
 2025-07-28T22:50:59.257Z - info: Closing jsreport instance
 2025-07-28T22:50:59.282Z - info: jsreport instance has been closed
+2025-08-06T19:58:05.761Z - info: Initializing jsreport (version: 4.9.0, configuration file: jsreport.config.json, nodejs: 21.6.0)
+2025-08-06T19:58:05.763Z - info: Searching for available extensions in /home/thiago/Documentos/Playback/jsreportapp/
+2025-08-06T19:58:05.765Z - info: Extensions location cache not found, crawling directories
+2025-08-06T19:58:05.844Z - info: Found 35 extension(s)
+2025-08-06T19:58:05.883Z - info: Using extension base@4.0.0
+2025-08-06T19:58:05.886Z - info: Using extension child-templates@4.1.0
+2025-08-06T19:58:05.888Z - info: Using extension cli@4.1.1
+2025-08-06T19:58:05.889Z - info: Using extension components@4.0.2
+2025-08-06T19:58:05.889Z - info: Using extension data@4.1.0
+2025-08-06T19:58:05.890Z - info: Using extension express@4.2.0
+2025-08-06T19:58:06.053Z - info: Using extension freeze@4.0.0
+2025-08-06T19:58:06.054Z - info: Using extension fs-store@4.1.1
+2025-08-06T19:58:06.105Z - info: Using extension handlebars@4.0.1
+2025-08-06T19:58:06.107Z - info: Using extension import-export@4.0.7
+2025-08-06T19:58:06.112Z - info: Using extension jsrender@4.0.0
+2025-08-06T19:58:06.112Z - info: Using extension licensing@4.0.5
+2025-08-06T19:58:06.113Z - info: Using extension localization@4.0.1
+2025-08-06T19:58:06.114Z - info: Using extension npm@4.0.0
+2025-08-06T19:58:06.115Z - info: Using extension pdf-utils@4.3.0
+2025-08-06T19:58:06.116Z - info: Using extension reports@4.1.4
+2025-08-06T19:58:06.118Z - info: Using extension tags@4.0.1
+2025-08-06T19:58:06.118Z - info: Using extension text@4.0.2
+2025-08-06T19:58:06.119Z - info: Using extension version-control@4.1.1
+2025-08-06T19:58:06.122Z - info: Using extension assets@4.2.2
+2025-08-06T19:58:06.127Z - info: Using extension authorization@4.1.0
+2025-08-06T19:58:06.129Z - info: Using extension browser-client@4.1.0
+2025-08-06T19:58:06.130Z - info: Using extension chrome-pdf@4.2.0
+2025-08-06T19:58:06.132Z - info: Using extension docx@4.8.0
+2025-08-06T19:58:06.133Z - info: Using extension html-to-xlsx@4.2.1
+2025-08-06T19:58:06.233Z - info: html-to-xlsx detected chrome as available html engine
+2025-08-06T19:58:06.233Z - info: Using extension pptx@4.4.1
+2025-08-06T19:58:06.234Z - info: Using extension scheduling@4.1.0
+2025-08-06T19:58:06.248Z - info: Using extension scripts@4.2.0
+2025-08-06T19:58:06.248Z - info: Using extension static-pdf@4.1.0
+2025-08-06T19:58:06.249Z - info: Using extension studio@4.3.1
+2025-08-06T19:58:06.290Z - info: Using extension xlsx@4.4.1
+2025-08-06T19:58:06.291Z - info: Using extension public-templates@4.0.0
+2025-08-06T19:58:06.291Z - info: Using extension sample-template@4.0.1
+2025-08-06T19:58:06.293Z - info: Using extension studio-theme-dark@4.0.0
+2025-08-06T19:58:06.297Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-08-06T19:58:06.298Z - info: Using fs provider for template store.
+2025-08-06T19:58:06.302Z - info: fs store is persisting using fs for /home/thiago/Documentos/Playback/jsreportapp/data
+2025-08-06T19:58:06.304Z - info: fs store is loading data
+2025-08-06T19:58:06.313Z - info: fs store is initialized successfully
+2025-08-06T19:58:06.318Z - info: Creating default express app.
+2025-08-06T19:58:06.331Z - info: jsreport server successfully started on http port: 5488
+2025-08-06T19:58:06.332Z - info: Verifying license key free
+2025-08-06T19:58:07.281Z - info: Using enterprise trial license
+2025-08-06T19:58:07.284Z - info: Initializing worker threads
+2025-08-06T19:58:07.490Z - info: 2 worker threads initialized in 206ms
+2025-08-06T19:58:07.490Z - info: Starting temp files cleanup with 180000ms threshold
+2025-08-06T19:58:07.490Z - info: reporter initialized
+2025-08-06T20:03:07.104Z - info: Render request 1 queued for execution and waiting for available worker rootId=e4p7q6106jgazm0, id=e4p7q6106jgazm0
+2025-08-06T20:03:07.115Z - info: Starting rendering request 1 rootId=e4p7q6106jgazm0, id=e4p7q6106jgazm0
+2025-08-06T20:03:07.116Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=e4p7q6106jgazm0, id=e4p7q6106jgazm0
+2025-08-06T20:03:07.876Z - info: Rendering request 1 finished in 774 ms rootId=e4p7q6106jgazm0, id=e4p7q6106jgazm0
+2025-08-06T20:03:29.718Z - info: Render request 2 queued for execution and waiting for available worker rootId=vkdjvgyrba6xbk7, id=vkdjvgyrba6xbk7
+2025-08-06T20:03:29.731Z - info: Starting rendering request 2 rootId=vkdjvgyrba6xbk7, id=vkdjvgyrba6xbk7
+2025-08-06T20:03:29.731Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=vkdjvgyrba6xbk7, id=vkdjvgyrba6xbk7
+2025-08-06T20:03:30.184Z - info: Rendering request 2 finished in 466 ms rootId=vkdjvgyrba6xbk7, id=vkdjvgyrba6xbk7
+2025-09-01T13:43:11.025Z - info: Initializing jsreport (version: 4.9.0, configuration file: jsreport.config.json, nodejs: 21.6.0)
+2025-09-01T13:43:11.026Z - info: Searching for available extensions in /home/thiago/Documentos/Playback/jsreportapp/
+2025-09-01T13:43:11.027Z - info: Extensions location cache not found, crawling directories
+2025-09-01T13:43:11.098Z - info: Found 35 extension(s)
+2025-09-01T13:43:11.137Z - info: Using extension base@4.0.0
+2025-09-01T13:43:11.140Z - info: Using extension child-templates@4.1.0
+2025-09-01T13:43:11.142Z - info: Using extension cli@4.1.1
+2025-09-01T13:43:11.143Z - info: Using extension components@4.0.2
+2025-09-01T13:43:11.144Z - info: Using extension data@4.1.0
+2025-09-01T13:43:11.145Z - info: Using extension express@4.2.0
+2025-09-01T13:43:11.330Z - info: Using extension freeze@4.0.0
+2025-09-01T13:43:11.330Z - info: Using extension fs-store@4.1.1
+2025-09-01T13:43:11.383Z - info: Using extension handlebars@4.0.1
+2025-09-01T13:43:11.383Z - info: Using extension import-export@4.0.7
+2025-09-01T13:43:11.390Z - info: Using extension jsrender@4.0.0
+2025-09-01T13:43:11.390Z - info: Using extension licensing@4.0.5
+2025-09-01T13:43:11.418Z - info: Using extension localization@4.0.1
+2025-09-01T13:43:11.418Z - info: Using extension npm@4.0.0
+2025-09-01T13:43:11.420Z - info: Using extension pdf-utils@4.3.0
+2025-09-01T13:43:11.421Z - info: Using extension reports@4.1.4
+2025-09-01T13:43:11.422Z - info: Using extension tags@4.0.1
+2025-09-01T13:43:11.423Z - info: Using extension text@4.0.2
+2025-09-01T13:43:11.423Z - info: Using extension version-control@4.1.1
+2025-09-01T13:43:11.426Z - info: Using extension assets@4.2.2
+2025-09-01T13:43:11.431Z - info: Using extension authorization@4.1.0
+2025-09-01T13:43:11.433Z - info: Using extension browser-client@4.1.0
+2025-09-01T13:43:11.434Z - info: Using extension chrome-pdf@4.2.0
+2025-09-01T13:43:11.436Z - info: Using extension docx@4.8.0
+2025-09-01T13:43:11.437Z - info: Using extension html-to-xlsx@4.2.1
+2025-09-01T13:43:11.536Z - info: html-to-xlsx detected chrome as available html engine
+2025-09-01T13:43:11.536Z - info: Using extension pptx@4.4.1
+2025-09-01T13:43:11.537Z - info: Using extension scheduling@4.1.0
+2025-09-01T13:43:11.553Z - info: Using extension scripts@4.2.0
+2025-09-01T13:43:11.553Z - info: Using extension static-pdf@4.1.0
+2025-09-01T13:43:11.554Z - info: Using extension studio@4.3.1
+2025-09-01T13:43:11.597Z - info: Using extension xlsx@4.4.1
+2025-09-01T13:43:11.598Z - info: Using extension public-templates@4.0.0
+2025-09-01T13:43:11.599Z - info: Using extension sample-template@4.0.1
+2025-09-01T13:43:11.600Z - info: Using extension studio-theme-dark@4.0.0
+2025-09-01T13:43:11.601Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-09-01T13:43:11.601Z - info: Using fs provider for template store.
+2025-09-01T13:43:11.603Z - info: fs store is persisting using fs for /home/thiago/Documentos/Playback/jsreportapp/data
+2025-09-01T13:43:11.605Z - info: fs store is loading data
+2025-09-01T13:43:11.618Z - info: fs store is initialized successfully
+2025-09-01T13:43:11.626Z - info: Creating default express app.
+2025-09-01T13:43:11.642Z - info: jsreport server successfully started on http port: 5488
+2025-09-01T13:43:11.643Z - info: Verifying license key free
+2025-09-01T13:43:12.649Z - info: Starting one month enterprise trial
+2025-09-01T13:43:12.652Z - info: Initializing worker threads
+2025-09-01T13:43:12.889Z - info: 2 worker threads initialized in 237ms
+2025-09-01T13:43:12.889Z - info: Starting temp files cleanup with 180000ms threshold
+2025-09-01T13:43:12.889Z - info: reporter initialized
+2025-09-02T15:51:10.270Z - info: Initializing jsreport (version: 4.9.0, configuration file: jsreport.config.json, nodejs: 21.6.0)
+2025-09-02T15:51:10.271Z - info: Searching for available extensions in /home/thiago/Documentos/Playback/jsreportapp/
+2025-09-02T15:51:10.273Z - info: Extensions location cache not found, crawling directories
+2025-09-02T15:51:10.347Z - info: Found 35 extension(s)
+2025-09-02T15:51:10.385Z - info: Using extension base@4.0.0
+2025-09-02T15:51:10.388Z - info: Using extension child-templates@4.1.0
+2025-09-02T15:51:10.390Z - info: Using extension cli@4.1.1
+2025-09-02T15:51:10.391Z - info: Using extension components@4.0.2
+2025-09-02T15:51:10.392Z - info: Using extension data@4.1.0
+2025-09-02T15:51:10.393Z - info: Using extension express@4.2.0
+2025-09-02T15:51:10.587Z - info: Using extension freeze@4.0.0
+2025-09-02T15:51:10.588Z - info: Using extension fs-store@4.1.1
+2025-09-02T15:51:10.648Z - info: Using extension handlebars@4.0.1
+2025-09-02T15:51:10.649Z - info: Using extension import-export@4.0.7
+2025-09-02T15:51:10.653Z - info: Using extension jsrender@4.0.0
+2025-09-02T15:51:10.654Z - info: Using extension licensing@4.0.5
+2025-09-02T15:51:10.682Z - info: Using extension localization@4.0.1
+2025-09-02T15:51:10.682Z - info: Using extension npm@4.0.0
+2025-09-02T15:51:10.684Z - info: Using extension pdf-utils@4.3.0
+2025-09-02T15:51:10.684Z - info: Using extension reports@4.1.4
+2025-09-02T15:51:10.686Z - info: Using extension tags@4.0.1
+2025-09-02T15:51:10.686Z - info: Using extension text@4.0.2
+2025-09-02T15:51:10.687Z - info: Using extension version-control@4.1.1
+2025-09-02T15:51:10.690Z - info: Using extension assets@4.2.2
+2025-09-02T15:51:10.695Z - info: Using extension authorization@4.1.0
+2025-09-02T15:51:10.697Z - info: Using extension browser-client@4.1.0
+2025-09-02T15:51:10.698Z - info: Using extension chrome-pdf@4.2.0
+2025-09-02T15:51:10.700Z - info: Using extension docx@4.8.0
+2025-09-02T15:51:10.701Z - info: Using extension html-to-xlsx@4.2.1
+2025-09-02T15:51:10.803Z - info: html-to-xlsx detected chrome as available html engine
+2025-09-02T15:51:10.803Z - info: Using extension pptx@4.4.1
+2025-09-02T15:51:10.804Z - info: Using extension scheduling@4.1.0
+2025-09-02T15:51:10.818Z - info: Using extension scripts@4.2.0
+2025-09-02T15:51:10.819Z - info: Using extension static-pdf@4.1.0
+2025-09-02T15:51:10.819Z - info: Using extension studio@4.3.1
+2025-09-02T15:51:10.862Z - info: Using extension xlsx@4.4.1
+2025-09-02T15:51:10.863Z - info: Using extension public-templates@4.0.0
+2025-09-02T15:51:10.863Z - info: Using extension sample-template@4.0.1
+2025-09-02T15:51:10.864Z - info: Using extension studio-theme-dark@4.0.0
+2025-09-02T15:51:10.865Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-09-02T15:51:10.865Z - info: Using fs provider for template store.
+2025-09-02T15:51:10.870Z - info: fs store is persisting using fs for /home/thiago/Documentos/Playback/jsreportapp/data
+2025-09-02T15:51:10.873Z - info: fs store is loading data
+2025-09-02T15:51:10.885Z - info: fs store is initialized successfully
+2025-09-02T15:51:10.891Z - info: Creating default express app.
+2025-09-02T15:51:10.905Z - info: jsreport server successfully started on http port: 5488
+2025-09-02T15:51:10.905Z - info: Verifying license key free
+2025-09-02T15:51:12.456Z - info: Using enterprise trial license
+2025-09-02T15:51:12.458Z - info: Initializing worker threads
+2025-09-02T15:51:12.674Z - info: 2 worker threads initialized in 216ms
+2025-09-02T15:51:12.675Z - info: Starting temp files cleanup with 180000ms threshold
+2025-09-02T15:51:12.675Z - info: reporter initialized
+2025-09-02T16:02:03.989Z - info: Render request 1 queued for execution and waiting for available worker rootId=78en403fbgr1wgd, id=78en403fbgr1wgd
+2025-09-02T16:02:04.005Z - info: Starting rendering request 1 rootId=78en403fbgr1wgd, id=78en403fbgr1wgd
+2025-09-02T16:02:04.005Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=78en403fbgr1wgd, id=78en403fbgr1wgd
+2025-09-02T16:02:04.805Z - info: Rendering request 1 finished in 817 ms rootId=78en403fbgr1wgd, id=78en403fbgr1wgd
+2025-09-02T16:50:18.892Z - info: Closing jsreport instance
+2025-09-02T16:50:18.914Z - info: jsreport instance has been closed
+2025-09-02T16:50:20.149Z - info: Initializing jsreport (version: 4.9.0, configuration file: jsreport.config.json, nodejs: 21.6.0)
+2025-09-02T16:50:20.151Z - info: Searching for available extensions in /home/thiago/Documentos/Playback/jsreportapp/
+2025-09-02T16:50:20.154Z - info: Extensions location cache contains up to date information, skipping crawling in /home/thiago/Documentos/Playback/jsreportapp/
+2025-09-02T16:50:20.156Z - info: Found 35 extension(s)
+2025-09-02T16:50:20.190Z - info: Using extension base@4.0.0
+2025-09-02T16:50:20.193Z - info: Using extension child-templates@4.1.0
+2025-09-02T16:50:20.195Z - info: Using extension cli@4.1.1
+2025-09-02T16:50:20.196Z - info: Using extension components@4.0.2
+2025-09-02T16:50:20.196Z - info: Using extension data@4.1.0
+2025-09-02T16:50:20.197Z - info: Using extension express@4.2.0
+2025-09-02T16:50:20.299Z - info: Using extension freeze@4.0.0
+2025-09-02T16:50:20.300Z - info: Using extension fs-store@4.1.1
+2025-09-02T16:50:20.333Z - info: Using extension handlebars@4.0.1
+2025-09-02T16:50:20.334Z - info: Using extension import-export@4.0.7
+2025-09-02T16:50:20.336Z - info: Using extension jsrender@4.0.0
+2025-09-02T16:50:20.336Z - info: Using extension licensing@4.0.5
+2025-09-02T16:50:20.355Z - info: Using extension localization@4.0.1
+2025-09-02T16:50:20.356Z - info: Using extension npm@4.0.0
+2025-09-02T16:50:20.357Z - info: Using extension pdf-utils@4.3.0
+2025-09-02T16:50:20.358Z - info: Using extension reports@4.1.4
+2025-09-02T16:50:20.359Z - info: Using extension tags@4.0.1
+2025-09-02T16:50:20.359Z - info: Using extension text@4.0.2
+2025-09-02T16:50:20.359Z - info: Using extension version-control@4.1.1
+2025-09-02T16:50:20.361Z - info: Using extension assets@4.2.2
+2025-09-02T16:50:20.364Z - info: Using extension authorization@4.1.0
+2025-09-02T16:50:20.366Z - info: Using extension browser-client@4.1.0
+2025-09-02T16:50:20.367Z - info: Using extension chrome-pdf@4.2.0
+2025-09-02T16:50:20.369Z - info: Using extension docx@4.8.0
+2025-09-02T16:50:20.369Z - info: Using extension html-to-xlsx@4.2.1
+2025-09-02T16:50:20.431Z - info: html-to-xlsx detected chrome as available html engine
+2025-09-02T16:50:20.431Z - info: Using extension pptx@4.4.1
+2025-09-02T16:50:20.432Z - info: Using extension scheduling@4.1.0
+2025-09-02T16:50:20.442Z - info: Using extension scripts@4.2.0
+2025-09-02T16:50:20.442Z - info: Using extension static-pdf@4.1.0
+2025-09-02T16:50:20.443Z - info: Using extension studio@4.3.1
+2025-09-02T16:50:20.471Z - info: Using extension xlsx@4.4.1
+2025-09-02T16:50:20.472Z - info: Using extension public-templates@4.0.0
+2025-09-02T16:50:20.473Z - info: Using extension sample-template@4.0.1
+2025-09-02T16:50:20.474Z - info: Using extension studio-theme-dark@4.0.0
+2025-09-02T16:50:20.474Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-09-02T16:50:20.474Z - info: Using fs provider for template store.
+2025-09-02T16:50:20.477Z - info: fs store is persisting using fs for /home/thiago/Documentos/Playback/jsreportapp/data
+2025-09-02T16:50:20.482Z - info: fs store is loading data
+2025-09-02T16:50:20.497Z - info: fs store is initialized successfully
+2025-09-02T16:50:20.506Z - info: Creating default express app.
+2025-09-02T16:50:20.514Z - info: jsreport server successfully started on http port: 5488
+2025-09-02T16:50:20.514Z - info: Verifying license key free
+2025-09-02T16:50:21.679Z - info: Using enterprise trial license
+2025-09-02T16:50:21.683Z - info: Initializing worker threads
+2025-09-02T16:50:21.870Z - info: 2 worker threads initialized in 187ms
+2025-09-02T16:50:21.870Z - info: Starting temp files cleanup with 180000ms threshold
+2025-09-02T16:50:21.870Z - info: reporter initialized
+2025-09-02T16:50:31.106Z - info: Render request 1 queued for execution and waiting for available worker rootId=xg200kujlckrxwd, id=xg200kujlckrxwd
+2025-09-02T16:50:31.120Z - info: Starting rendering request 1 rootId=xg200kujlckrxwd, id=xg200kujlckrxwd
+2025-09-02T16:50:31.121Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=xg200kujlckrxwd, id=xg200kujlckrxwd
+2025-09-02T16:50:31.353Z - warn: Error when processing render request 1
+(because) error when evaluating engine jsrender for template /report/report-collaborators
+(because) cannot read properties of undefined (reading 'periodCovered')
+
+(sandbox.js line 13:18)
+TypeError: Cannot read properties of undefined (reading 'periodCovered')
+  at Object.anonymous [as fn] (eval at <anonymous> (eval at makeEvaluate (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/ses/index.js:7936:27)), <anonymous>:6:18)
+  at Object.renderContent [as render] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:1667:21)
+  at Tag.render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:2870:24)
+  at renderTag (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:865:26)
+  at Function.anonymous [as fn] (eval at <anonymous> (eval at makeEvaluate (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/ses/index.js:7936:27)), <anonymous>:6:2)
+  at Function.renderContent [as render] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:1671:20)
+  at Object.execute (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-jsrender/lib/jsrenderEngine.js:26:29)
+  at executionFn (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:273:42)
+  at eval (sandbox.js:13:18)
+  at async run (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/runInSandbox.js:214:14)
+  at async executeEngine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:354:16)
+  at async engine.engine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:162:14)
+  at async invokeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:148:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+wrapped by:
+Error: Error when evaluating engine jsrender for template /report/report-collaborators
+(because) cannot read properties of undefined (reading 'periodCovered')
+  at module.exports (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:53:12)
+  at executeEngine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:377:35)
+  at async engine.engine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:162:14)
+  at async invokeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:148:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+  at async processAndResponse (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:42:17) rootId=xg200kujlckrxwd, id=xg200kujlckrxwd
+2025-09-02T16:50:31.353Z - warn: Rendering request 1 finished with error in 249 ms rootId=xg200kujlckrxwd, id=xg200kujlckrxwd
+2025-09-02T16:50:31.355Z - warn: Error during processing request at http://localhost:5488/api/report
+2025-09-02T16:53:48.120Z - info: Render request 2 queued for execution and waiting for available worker rootId=vh93e8jzheila99, id=vh93e8jzheila99
+2025-09-02T16:53:48.124Z - info: Starting rendering request 2 rootId=vh93e8jzheila99, id=vh93e8jzheila99
+2025-09-02T16:53:48.125Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=vh93e8jzheila99, id=vh93e8jzheila99
+2025-09-02T16:53:48.352Z - warn: Error when processing render request 2
+(because) error when evaluating engine jsrender for template /report/report-collaborators
+(because) cannot read properties of undefined (reading 'periodCovered')
+
+(sandbox.js line 13:18)
+TypeError: Cannot read properties of undefined (reading 'periodCovered')
+  at Object.anonymous [as fn] (eval at <anonymous> (eval at makeEvaluate (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/ses/index.js:7936:27)), <anonymous>:6:18)
+  at Object.renderContent [as render] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:1667:21)
+  at Tag.render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:2870:24)
+  at renderTag (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:865:26)
+  at Function.anonymous [as fn] (eval at <anonymous> (eval at makeEvaluate (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/ses/index.js:7936:27)), <anonymous>:6:2)
+  at Function.renderContent [as render] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:1671:20)
+  at Object.execute (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-jsrender/lib/jsrenderEngine.js:26:29)
+  at executionFn (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:273:42)
+  at eval (sandbox.js:13:18)
+  at async run (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/runInSandbox.js:214:14)
+  at async executeEngine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:354:16)
+  at async engine.engine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:162:14)
+  at async invokeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:148:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+wrapped by:
+Error: Error when evaluating engine jsrender for template /report/report-collaborators
+(because) cannot read properties of undefined (reading 'periodCovered')
+  at module.exports (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:53:12)
+  at executeEngine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:377:35)
+  at async engine.engine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:162:14)
+  at async invokeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:148:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+  at async processAndResponse (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:42:17) rootId=vh93e8jzheila99, id=vh93e8jzheila99
+2025-09-02T16:53:48.352Z - warn: Rendering request 2 finished with error in 233 ms rootId=vh93e8jzheila99, id=vh93e8jzheila99
+2025-09-02T16:53:48.353Z - warn: Error during processing request at http://localhost:5488/api/report
+2025-09-02T16:53:54.635Z - info: Closing jsreport instance
+2025-09-02T16:53:54.650Z - info: jsreport instance has been closed
+2025-09-02T16:53:55.994Z - info: Initializing jsreport (version: 4.9.0, configuration file: jsreport.config.json, nodejs: 21.6.0)
+2025-09-02T16:53:55.996Z - info: Searching for available extensions in /home/thiago/Documentos/Playback/jsreportapp/
+2025-09-02T16:53:55.998Z - info: Extensions location cache contains up to date information, skipping crawling in /home/thiago/Documentos/Playback/jsreportapp/
+2025-09-02T16:53:56.001Z - info: Found 35 extension(s)
+2025-09-02T16:53:56.035Z - info: Using extension base@4.0.0
+2025-09-02T16:53:56.038Z - info: Using extension child-templates@4.1.0
+2025-09-02T16:53:56.040Z - info: Using extension cli@4.1.1
+2025-09-02T16:53:56.041Z - info: Using extension components@4.0.2
+2025-09-02T16:53:56.041Z - info: Using extension data@4.1.0
+2025-09-02T16:53:56.042Z - info: Using extension express@4.2.0
+2025-09-02T16:53:56.136Z - info: Using extension freeze@4.0.0
+2025-09-02T16:53:56.137Z - info: Using extension fs-store@4.1.1
+2025-09-02T16:53:56.169Z - info: Using extension handlebars@4.0.1
+2025-09-02T16:53:56.170Z - info: Using extension import-export@4.0.7
+2025-09-02T16:53:56.173Z - info: Using extension jsrender@4.0.0
+2025-09-02T16:53:56.173Z - info: Using extension licensing@4.0.5
+2025-09-02T16:53:56.195Z - info: Using extension localization@4.0.1
+2025-09-02T16:53:56.195Z - info: Using extension npm@4.0.0
+2025-09-02T16:53:56.197Z - info: Using extension pdf-utils@4.3.0
+2025-09-02T16:53:56.198Z - info: Using extension reports@4.1.4
+2025-09-02T16:53:56.199Z - info: Using extension tags@4.0.1
+2025-09-02T16:53:56.199Z - info: Using extension text@4.0.2
+2025-09-02T16:53:56.200Z - info: Using extension version-control@4.1.1
+2025-09-02T16:53:56.202Z - info: Using extension assets@4.2.2
+2025-09-02T16:53:56.205Z - info: Using extension authorization@4.1.0
+2025-09-02T16:53:56.207Z - info: Using extension browser-client@4.1.0
+2025-09-02T16:53:56.208Z - info: Using extension chrome-pdf@4.2.0
+2025-09-02T16:53:56.210Z - info: Using extension docx@4.8.0
+2025-09-02T16:53:56.211Z - info: Using extension html-to-xlsx@4.2.1
+2025-09-02T16:53:56.276Z - info: html-to-xlsx detected chrome as available html engine
+2025-09-02T16:53:56.277Z - info: Using extension pptx@4.4.1
+2025-09-02T16:53:56.277Z - info: Using extension scheduling@4.1.0
+2025-09-02T16:53:56.287Z - info: Using extension scripts@4.2.0
+2025-09-02T16:53:56.288Z - info: Using extension static-pdf@4.1.0
+2025-09-02T16:53:56.288Z - info: Using extension studio@4.3.1
+2025-09-02T16:53:56.317Z - info: Using extension xlsx@4.4.1
+2025-09-02T16:53:56.318Z - info: Using extension public-templates@4.0.0
+2025-09-02T16:53:56.319Z - info: Using extension sample-template@4.0.1
+2025-09-02T16:53:56.319Z - info: Using extension studio-theme-dark@4.0.0
+2025-09-02T16:53:56.320Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-09-02T16:53:56.320Z - info: Using fs provider for template store.
+2025-09-02T16:53:56.322Z - info: fs store is persisting using fs for /home/thiago/Documentos/Playback/jsreportapp/data
+2025-09-02T16:53:56.328Z - info: fs store is loading data
+2025-09-02T16:53:56.349Z - info: fs store is initialized successfully
+2025-09-02T16:53:56.355Z - info: Creating default express app.
+2025-09-02T16:53:56.363Z - info: jsreport server successfully started on http port: 5488
+2025-09-02T16:53:56.363Z - info: Verifying license key free
+2025-09-02T16:53:57.432Z - info: Using enterprise trial license
+2025-09-02T16:53:57.434Z - info: Initializing worker threads
+2025-09-02T16:53:57.609Z - info: 2 worker threads initialized in 175ms
+2025-09-02T16:53:57.609Z - info: Starting temp files cleanup with 180000ms threshold
+2025-09-02T16:53:57.609Z - info: reporter initialized
+2025-09-02T16:54:02.161Z - info: Render request 1 queued for execution and waiting for available worker rootId=rxs1c7aoql8ye8f, id=rxs1c7aoql8ye8f
+2025-09-02T16:54:02.186Z - info: Starting rendering request 1 rootId=rxs1c7aoql8ye8f, id=rxs1c7aoql8ye8f
+2025-09-02T16:54:02.187Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=rxs1c7aoql8ye8f, id=rxs1c7aoql8ye8f
+2025-09-02T16:54:02.642Z - info: Rendering request 1 finished in 482 ms rootId=rxs1c7aoql8ye8f, id=rxs1c7aoql8ye8f
