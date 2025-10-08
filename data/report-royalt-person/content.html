@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Self-Billing Invoice</title>
+    <style>
+        body { font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 10pt; color: #333; }
+        table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+        th, td { padding: 5px 4px; text-align: left; vertical-align: top; word-wrap: break-word; }
+        .main-table > tbody > tr > td { padding-top: 2px; padding-bottom: 2px; }
+        .header-title { font-size: 20pt; font-weight: bold; }
+        .header-logo { font-size: 16pt; font-weight: bold; text-align: right; }
+        .playback-color { color: #6C5CE7; }
+        .section-title { font-weight: bold; color: #888; font-size: 8pt; padding-bottom: 0; }
+        .text-right { text-align: right; }
+        .text-bold { font-weight: bold; }
+        .summary-table { margin-top: 20px; border-top: 2px solid #000; border-bottom: 2px solid #000; }
+        .summary-table th { border-bottom: 1px solid #000; padding-top: 8px; padding-bottom: 8px; }
+        .summary-table td { padding-top: 8px; padding-bottom: 8px; }
+        .totals-section td { border-top: 1px solid #ccc; padding-top: 4px; padding-bottom: 4px; }
+        .total-payable { font-size: 11pt; }
+        .vat-note { font-size: 8pt; color: #666; padding-top: 0; }
+        .footer-note, .page-footer { margin-top: 30px; font-size: 9pt; }
+        .page-footer { padding-top: 10px; border-top: 1px solid #ccc; font-size: 8pt; color: #555; text-align: center; }
+        .page-footer p { margin: 2px 0; }
+    </style>
+</head>
+<body>
+    <table class="main-table">
+        <colgroup>
+            <col style="width: 50%" />
+            <col style="width: 50%" />
+        </colgroup>
+        <tbody>
+            <tr>
+                <td class="header-title" colspan="2">Self-Billing Invoice</td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 10px;">Royalty management services provided by Playback</td>
+                <td class="header-logo" style="padding-bottom: 10px;"><span class="playback-color">PlayBack</span></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="section-title">RECIPIENT (COLLABORATOR)</p>
+                    <p>
+  <span class="text-bold">
+    {{if collaborator.profile_type === 'person'}}
+        {{:collaborator.public_name}}
+    {{else}}
+        {{:collaborator.organisation_name}}
+    {{/if}}
+  </span><br />
+  {{:collaborator.address}}<br />
+  {{:collaborator.postal_code}} {{:collaborator.city}}<br />
+  {{:collaborator.country}}
+</p>
+                    <p>
+                        {{if invoiceType === 'person'}}
+                            Person ID Number: {{:collaborator.person_id}}<br />
+                        {{else}}
+                            Company Registration Number: {{:collaborator.organisation_number}}<br />
+                            VAT Number: {{:collaborator.vat_number}}<br />
+                        {{/if}}
+                        Client ID: {{:collaborator.id}}
+                    </p>
+                </td>
+                <td>
+                    <p class="section-title">ISSUED BY PLAYBACK ON BEHALF OF (REGISTRANT)</p>
+                    <p>
+                        <span class="text-bold">{{:registrant.public_name}}</span><br />
+                        {{:registrant.address}}<br />
+                        {{:registrant.postal_code}} {{:registrant.city}}<br />
+                        {{:registrant.country}}
+                    </p>
+                    <p>
+                        Company Registration Number: {{:registrant.organisation_number}}<br />
+                        VAT Number: {{:registrant.vat_number}}<br />
+                        Client ID: {{:registrant.id}}
+                    </p>
+                </td>
+            </tr>
+            <tr><td colspan="2" style="padding-top: 15px;"></td></tr>
+            <tr>
+                <td>
+                    <span class="text-bold">Invoice No.:</span> {{:invoiceNumber}}<br />
+                    <span class="text-bold">Date Issued:</span> {{:dateIssued}}
+                </td>
+                <td class="text-right">
+                    <span class="text-bold">Period Covered:</span> {{:periodCovered}}<br />
+                    <span class="text-bold">Currency:</span> {{:bank_detail.currency_id}}
+                </td>
+            </tr>
+             <tr><td colspan="2" class="text-bold" style="padding-top: 10px;">Self-billing</td></tr>
+        </tbody>
+    </table>
+
+    <table class="summary-table">
+        <colgroup>
+            <col style="width: 50%" />
+            <col style="width: 25%" />
+            <col style="width: 25%" />
+        </colgroup>
+        <thead>
+            <tr>
+                {{if invoiceType === 'person'}}
+                    <th>Distributor</th>
+                {{else}}
+                    <th>Item</th>
+                {{/if}}
+                <th>Period</th>
+                <th class="text-right">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{for lineItems}}
+            <tr>
+                <td>{{:description}}</td>
+                <td>{{:period}}</td>
+                <td class="text-right">{{:amount}}</td>
+            </tr>
+            {{/for}}
+            
+            <tr class="totals-section">
+                <td colspan="2" class="text-right">Sub total:</td>
+                <td class="text-right">{{:subTotal}}</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="vat-note">
+                    {{if invoiceType === 'company-dkk'}}
+                        (Amount, VAT exempt: 0.00 Amount, subj. to VAT {{:subTotal}})
+                    {{else invoiceType === 'company'}}
+                         (Amount VAT exempt {{:subTotal}}-Amount, subj to VAT: 0.00)
+                    {{/if}}
+                </td>
+            </tr>
+
+            {{if invoiceType === 'company-dkk'}}
+                <tr>
+                    <td colspan="2" class="text-right">25% VAT:</td>
+                    <td class="text-right">{{:vatAmount}}</td>
+                </tr>
+            {{else invoiceType === 'company'}}
+                <tr>
+                    <td colspan="2" class="text-right">0% VAT:</td>
+                    <td class="text-right">0.00</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="vat-note">
+                        Reverse charge–VAT to be accounted for by the recipient under Article 196 of Directive 2006/112/EC
+                    </td>
+                </tr>
+            {{else}} <tr>
+                    <td colspan="2" class="text-right">0% VAT:</td>
+                    <td class="text-right">0.00</td>
+                </tr>
+            {{/if}}
+            
+            <tr class="total-payable">
+                <td colspan="2" class="text-bold text-right">Net Payable</td>
+                <td class="text-bold text-right">{{:netPayable}} {{:bank_detail.currency_id}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="margin-top: 30px;">
+        <h3 style="font-size: 11pt; margin-bottom: 10px;">Payment Details</h3>
+        <p style="margin: 4px 0;"><b>Name of Bank Account Holder:</b> {{:bank_detail.account_holder_name}}</p>
+        <p style="margin: 4px 0;"><b>Bank Account Number:</b> {{:bank_detail.account_number}}</p>
+        <p style="margin: 4px 0;"><b>Bank Registration Number:</b> {{:bank_detail.registration_number}}</p>
+        <p style="margin: 4px 0;"><b>Bank Country:</b> {{:bank_detail.bank_country}}</p>
+        <p style="margin: 4px 0;"><b>IBAN:</b> {{:bank_detail.iban}}</p>
+        <p style="margin: 4px 0;"><b>SWIFT/BIC code:</b> {{:bank_detail.swift}}</p>
+    </div>
+
+    <div class="footer-note">
+        <p>This document serves as a self-billing invoice prepared by Playback ApS. It can be used as documentation for accounting and tax reporting purposes. Please contact us if you have any questions.</p>
+    </div>
+
+    <div class="page-footer">
+        <p class="text-bold"><span class="playback-color">Playback ApS</span></p>
+        <p>Toldbodgade 89-1253 Copenhagen Denmark Company reg. no.: 43092847</p>
+        <p>info@playback.studio</p>
+    </div>
+</body>
+</html>

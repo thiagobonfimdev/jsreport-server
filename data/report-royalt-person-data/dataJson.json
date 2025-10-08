@@ -1,0 +1,17 @@
+{
+  "invoiceType": "company-dkk",
+  "collaborator": {
+    "full_name": "Dansk Musik Forlag ApS", "address": "Gadevej 22", "postal_code": "8000", "city": "Aarhus", "country": "Denmark",
+    "organisation_number": "DK11223344", "vat_number": "DK11223344", "id": "C778899"
+  },
+  "registrant": { "public_name": "Playback ApS", "address": "Toldbodgade 89", "postal_code": "1253", "city": "Copenhagen", "country": "Denmark", "organisation_number": "43092847", "vat_number": "DK43092847", "id": "R998877" },
+  "bank_detail": { "currency_id": "DKK", "account_holder_name": "Dansk Musik Forlag ApS", "account_number": "1122334455", "registration_number": "5566", "bank_country": "Denmark", "iban": "DK5000400440116243", "swift": "DABADKKK" },
+  "invoiceNumber": "C778899-0003", "dateIssued": "07/10/2025", "periodCovered": "01/01/25-31/06/25",
+  "lineItems": [
+    { "description": "Royalties", "period": "01.01.25-31.06.25", "amount": "9,384.78" },
+    { "description": "Previously accrued royalties", "period": "01.07.24-31.12.24", "amount": "341.75" }
+  ],
+  "subTotal": "9,726.53",
+  "vatAmount": "1,945.31",
+  "netPayable": "11,671.84"
+}

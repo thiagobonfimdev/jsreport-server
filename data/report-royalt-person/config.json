@@ -1,0 +1,20 @@
+{
+    "name": "report-royalt-person",
+    "engine": "jsrender",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "DZNhAfkjj"
+    },
+    "shortid": "EKDu6wp7U",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1759862671685
+    },
+    "modificationDate": {
+        "$$date": 1759885765121
+    },
+    "_id": "XylilKPH9RNhlCvm",
+    "$entitySet": "templates"
+}

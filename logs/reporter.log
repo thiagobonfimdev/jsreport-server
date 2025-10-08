@@ -5523,3 +5523,194 @@ Error: Error when evaluating engine jsrender for template /report/report-collabo
 2025-09-02T16:54:02.186Z - info: Starting rendering request 1 rootId=rxs1c7aoql8ye8f, id=rxs1c7aoql8ye8f
 2025-09-02T16:54:02.187Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=rxs1c7aoql8ye8f, id=rxs1c7aoql8ye8f
 2025-09-02T16:54:02.642Z - info: Rendering request 1 finished in 482 ms rootId=rxs1c7aoql8ye8f, id=rxs1c7aoql8ye8f
+2025-09-02T17:27:28.157Z - info: fs store is loading data
+2025-09-03T12:13:32.178Z - info: fs store is loading data
+2025-09-03T17:50:19.189Z - info: fs store is loading data
+2025-10-07T18:32:32.337Z - info: Initializing jsreport (version: 4.9.0, configuration file: jsreport.config.json, nodejs: 21.6.0)
+2025-10-07T18:32:32.339Z - info: Searching for available extensions in /home/thiago/Documentos/Playback/jsreportapp/
+2025-10-07T18:32:32.340Z - info: Extensions location cache not found, crawling directories
+2025-10-07T18:32:32.417Z - info: Found 35 extension(s)
+2025-10-07T18:32:32.464Z - info: Using extension base@4.0.0
+2025-10-07T18:32:32.467Z - info: Using extension child-templates@4.1.0
+2025-10-07T18:32:32.470Z - info: Using extension cli@4.1.1
+2025-10-07T18:32:32.474Z - info: Using extension components@4.0.2
+2025-10-07T18:32:32.474Z - info: Using extension data@4.1.0
+2025-10-07T18:32:32.475Z - info: Using extension express@4.2.0
+2025-10-07T18:32:32.911Z - info: Using extension freeze@4.0.0
+2025-10-07T18:32:32.914Z - info: Using extension fs-store@4.1.1
+2025-10-07T18:32:33.055Z - info: Using extension handlebars@4.0.1
+2025-10-07T18:32:33.057Z - info: Using extension import-export@4.0.7
+2025-10-07T18:32:33.070Z - info: Using extension jsrender@4.0.0
+2025-10-07T18:32:33.071Z - info: Using extension licensing@4.0.5
+2025-10-07T18:32:33.168Z - info: Using extension localization@4.0.1
+2025-10-07T18:32:33.170Z - info: Using extension npm@4.0.0
+2025-10-07T18:32:33.175Z - info: Using extension pdf-utils@4.3.0
+2025-10-07T18:32:33.179Z - info: Using extension reports@4.1.4
+2025-10-07T18:32:33.184Z - info: Using extension tags@4.0.1
+2025-10-07T18:32:33.187Z - info: Using extension text@4.0.2
+2025-10-07T18:32:33.188Z - info: Using extension version-control@4.1.1
+2025-10-07T18:32:33.199Z - info: Using extension assets@4.2.2
+2025-10-07T18:32:33.214Z - info: Using extension authorization@4.1.0
+2025-10-07T18:32:33.219Z - info: Using extension browser-client@4.1.0
+2025-10-07T18:32:33.223Z - info: Using extension chrome-pdf@4.2.0
+2025-10-07T18:32:33.229Z - info: Using extension docx@4.8.0
+2025-10-07T18:32:33.232Z - info: Using extension html-to-xlsx@4.2.1
+2025-10-07T18:32:33.498Z - info: html-to-xlsx detected chrome as available html engine
+2025-10-07T18:32:33.498Z - info: Using extension pptx@4.4.1
+2025-10-07T18:32:33.500Z - info: Using extension scheduling@4.1.0
+2025-10-07T18:32:33.548Z - info: Using extension scripts@4.2.0
+2025-10-07T18:32:33.549Z - info: Using extension static-pdf@4.1.0
+2025-10-07T18:32:33.551Z - info: Using extension studio@4.3.1
+2025-10-07T18:32:33.661Z - info: Using extension xlsx@4.4.1
+2025-10-07T18:32:33.664Z - info: Using extension public-templates@4.0.0
+2025-10-07T18:32:33.666Z - info: Using extension sample-template@4.0.1
+2025-10-07T18:32:33.669Z - info: Using extension studio-theme-dark@4.0.0
+2025-10-07T18:32:33.671Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-10-07T18:32:33.671Z - info: Using fs provider for template store.
+2025-10-07T18:32:33.678Z - info: fs store is persisting using fs for /home/thiago/Documentos/Playback/jsreportapp/data
+2025-10-07T18:32:33.684Z - info: fs store is loading data
+2025-10-07T18:32:33.711Z - info: fs store is initialized successfully
+2025-10-07T18:32:33.722Z - info: Creating default express app.
+2025-10-07T18:32:33.742Z - info: jsreport server successfully started on http port: 5488
+2025-10-07T18:32:33.743Z - info: Verifying license key free
+2025-10-07T18:32:35.222Z - info: Starting one month enterprise trial
+2025-10-07T18:32:35.229Z - info: Initializing worker threads
+2025-10-07T18:32:35.627Z - info: 2 worker threads initialized in 398ms
+2025-10-07T18:32:35.627Z - info: Starting temp files cleanup with 180000ms threshold
+2025-10-07T18:32:35.628Z - info: reporter initialized
+2025-10-07T18:38:56.384Z - info: Render request 1 queued for execution and waiting for available worker rootId=ke6ab8ko0epm6p2, id=ke6ab8ko0epm6p2
+2025-10-07T18:38:56.430Z - info: Starting rendering request 1 rootId=ke6ab8ko0epm6p2, id=ke6ab8ko0epm6p2
+2025-10-07T18:38:56.432Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=ke6ab8ko0epm6p2, id=ke6ab8ko0epm6p2
+2025-10-07T18:38:56.946Z - warn: Error when processing render request 1
+(because) error when evaluating engine jsrender for template /report/report-1
+(because) cannot read properties of undefined (reading 'logo')
+
+(sandbox.js line 13:18)
+TypeError: Cannot read properties of undefined (reading 'logo')
+  at Function.anonymous [as fn] (eval at <anonymous> (eval at makeEvaluate (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/ses/index.js:7936:27)), <anonymous>:5:18)
+  at Function.renderContent [as render] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:1671:20)
+  at Object.execute (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-jsrender/lib/jsrenderEngine.js:26:29)
+  at executionFn (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:273:42)
+  at eval (sandbox.js:13:18)
+  at async run (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/runInSandbox.js:214:14)
+  at async executeEngine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:354:16)
+  at async engine.engine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:162:14)
+  at async invokeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:148:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+  at async processAndResponse (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:42:17)
+wrapped by:
+Error: Error when evaluating engine jsrender for template /report/report-1
+(because) cannot read properties of undefined (reading 'logo')
+  at module.exports (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:53:12)
+  at executeEngine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:377:35)
+  at async engine.engine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:162:14)
+  at async invokeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:148:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+  at async processAndResponse (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:42:17) rootId=ke6ab8ko0epm6p2, id=ke6ab8ko0epm6p2
+2025-10-07T18:38:56.946Z - warn: Rendering request 1 finished with error in 567 ms rootId=ke6ab8ko0epm6p2, id=ke6ab8ko0epm6p2
+2025-10-07T18:39:00.098Z - info: Render request 2 queued for execution and waiting for available worker rootId=ogokxk0wln5ru2j, id=ogokxk0wln5ru2j
+2025-10-07T18:39:00.122Z - info: Starting rendering request 2 rootId=ogokxk0wln5ru2j, id=ogokxk0wln5ru2j
+2025-10-07T18:39:00.123Z - info: Rendering template { name: report-collaborators, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=ogokxk0wln5ru2j, id=ogokxk0wln5ru2j
+2025-10-07T18:39:01.556Z - info: Rendering request 2 finished in 1461 ms rootId=ogokxk0wln5ru2j, id=ogokxk0wln5ru2j
+2025-10-07T18:44:34.823Z - info: Render request 3 queued for execution and waiting for available worker rootId=lfh59ch0scnk3b6, id=lfh59ch0scnk3b6
+2025-10-07T18:44:34.836Z - info: Starting rendering request 3 rootId=lfh59ch0scnk3b6, id=lfh59ch0scnk3b6
+2025-10-07T18:44:34.836Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=lfh59ch0scnk3b6, id=lfh59ch0scnk3b6
+2025-10-07T18:44:35.391Z - info: Rendering request 3 finished in 569 ms rootId=lfh59ch0scnk3b6, id=lfh59ch0scnk3b6
+2025-10-07T18:53:15.250Z - info: Render request 4 queued for execution and waiting for available worker rootId=xi5iyn16j2lbqvu, id=xi5iyn16j2lbqvu
+2025-10-07T18:53:15.269Z - info: Starting rendering request 4 rootId=xi5iyn16j2lbqvu, id=xi5iyn16j2lbqvu
+2025-10-07T18:53:15.270Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=xi5iyn16j2lbqvu, id=xi5iyn16j2lbqvu
+2025-10-07T18:53:15.539Z - info: Rendering request 4 finished in 292 ms rootId=xi5iyn16j2lbqvu, id=xi5iyn16j2lbqvu
+2025-10-07T18:55:06.489Z - info: Render request 5 queued for execution and waiting for available worker rootId=1w7eky48qg9qkx1, id=1w7eky48qg9qkx1
+2025-10-07T18:55:06.510Z - info: Starting rendering request 5 rootId=1w7eky48qg9qkx1, id=1w7eky48qg9qkx1
+2025-10-07T18:55:06.510Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=1w7eky48qg9qkx1, id=1w7eky48qg9qkx1
+2025-10-07T18:55:06.699Z - info: Rendering request 5 finished in 211 ms rootId=1w7eky48qg9qkx1, id=1w7eky48qg9qkx1
+2025-10-07T18:56:15.502Z - info: Render request 6 queued for execution and waiting for available worker rootId=7e8k3wcvxvn70vg, id=7e8k3wcvxvn70vg
+2025-10-07T18:56:15.514Z - info: Starting rendering request 6 rootId=7e8k3wcvxvn70vg, id=7e8k3wcvxvn70vg
+2025-10-07T18:56:15.514Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=7e8k3wcvxvn70vg, id=7e8k3wcvxvn70vg
+2025-10-07T18:56:15.734Z - info: Rendering request 6 finished in 234 ms rootId=7e8k3wcvxvn70vg, id=7e8k3wcvxvn70vg
+2025-10-07T19:05:46.882Z - info: Render request 7 queued for execution and waiting for available worker rootId=f14tu3s2h1pfvcy, id=f14tu3s2h1pfvcy
+2025-10-07T19:05:46.892Z - info: Starting rendering request 7 rootId=f14tu3s2h1pfvcy, id=f14tu3s2h1pfvcy
+2025-10-07T19:05:46.892Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=f14tu3s2h1pfvcy, id=f14tu3s2h1pfvcy
+2025-10-07T19:05:47.090Z - info: Rendering request 7 finished in 210 ms rootId=f14tu3s2h1pfvcy, id=f14tu3s2h1pfvcy
+2025-10-07T19:14:30.776Z - info: Render request 8 queued for execution and waiting for available worker rootId=p5xk5l8vs7mjhdt, id=p5xk5l8vs7mjhdt
+2025-10-07T19:14:30.786Z - info: Starting rendering request 8 rootId=p5xk5l8vs7mjhdt, id=p5xk5l8vs7mjhdt
+2025-10-07T19:14:30.786Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=p5xk5l8vs7mjhdt, id=p5xk5l8vs7mjhdt
+2025-10-07T19:14:30.976Z - info: Rendering request 8 finished in 201 ms rootId=p5xk5l8vs7mjhdt, id=p5xk5l8vs7mjhdt
+2025-10-07T19:14:47.411Z - info: Render request 9 queued for execution and waiting for available worker rootId=avivugzxbdkfkxi, id=avivugzxbdkfkxi
+2025-10-07T19:14:47.422Z - info: Starting rendering request 9 rootId=avivugzxbdkfkxi, id=avivugzxbdkfkxi
+2025-10-07T19:14:47.422Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=avivugzxbdkfkxi, id=avivugzxbdkfkxi
+2025-10-07T19:14:47.635Z - info: Rendering request 9 finished in 225 ms rootId=avivugzxbdkfkxi, id=avivugzxbdkfkxi
+2025-10-07T19:15:00.338Z - info: Render request 10 queued for execution and waiting for available worker rootId=i4od7np6wapad32, id=i4od7np6wapad32
+2025-10-07T19:15:00.365Z - info: Starting rendering request 10 rootId=i4od7np6wapad32, id=i4od7np6wapad32
+2025-10-07T19:15:00.365Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=i4od7np6wapad32, id=i4od7np6wapad32
+2025-10-07T19:15:00.576Z - info: Rendering request 10 finished in 239 ms rootId=i4od7np6wapad32, id=i4od7np6wapad32
+2025-10-07T19:15:14.799Z - info: Render request 11 queued for execution and waiting for available worker rootId=bhrg4838n6mf0kq, id=bhrg4838n6mf0kq
+2025-10-07T19:15:14.830Z - info: Starting rendering request 11 rootId=bhrg4838n6mf0kq, id=bhrg4838n6mf0kq
+2025-10-07T19:15:14.830Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=bhrg4838n6mf0kq, id=bhrg4838n6mf0kq
+2025-10-07T19:15:15.012Z - info: Rendering request 11 finished in 214 ms rootId=bhrg4838n6mf0kq, id=bhrg4838n6mf0kq
+2025-10-08T00:57:43.746Z - info: Render request 12 queued for execution and waiting for available worker rootId=v7x6i9791tgxh4d, id=v7x6i9791tgxh4d
+2025-10-08T00:57:43.757Z - info: Starting rendering request 12 rootId=v7x6i9791tgxh4d, id=v7x6i9791tgxh4d
+2025-10-08T00:57:43.760Z - warn: Error when processing render request 12
+(because) unable to find specified template (self-billing-invoice)
+Error: Unable to find specified template (self-billing-invoice)
+  at module.exports (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:53:12)
+  at AsyncFunction.<anonymous> (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:147:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+  at async processAndResponse (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:42:17) rootId=v7x6i9791tgxh4d, id=v7x6i9791tgxh4d
+2025-10-08T00:57:43.760Z - warn: Rendering request 12 finished with error in 15 ms rootId=v7x6i9791tgxh4d, id=v7x6i9791tgxh4d
+2025-10-08T00:57:43.764Z - warn: Error during processing request at http://localhost:5488/api/report
+2025-10-08T00:59:58.468Z - info: Render request 13 queued for execution and waiting for available worker rootId=tuu4m8lyk7eaada, id=tuu4m8lyk7eaada
+2025-10-08T00:59:58.484Z - info: Starting rendering request 13 rootId=tuu4m8lyk7eaada, id=tuu4m8lyk7eaada
+2025-10-08T00:59:58.484Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=tuu4m8lyk7eaada, id=tuu4m8lyk7eaada
+2025-10-08T00:59:58.507Z - warn: Error when processing render request 13
+(because) error when evaluating engine jsrender for template /report-royalt-person
+(because) cannot read properties of null (reading 'currency_id')
+
+(sandbox.js line 13:18)
+TypeError: Cannot read properties of null (reading 'currency_id')
+  at Function.anonymous [as fn] (eval at <anonymous> (eval at makeEvaluate (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/ses/index.js:7936:27)), <anonymous>:33:23)
+  at Function.renderContent [as render] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/jsrender/jsrender-node.js:1671:20)
+  at Object.execute (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-jsrender/lib/jsrenderEngine.js:26:29)
+  at executionFn (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:273:42)
+  at eval (sandbox.js:13:18)
+  at async run (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/runInSandbox.js:214:14)
+  at async executeEngine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:354:16)
+  at async engine.engine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:162:14)
+  at async invokeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:148:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+  at async processAndResponse (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:42:17)
+wrapped by:
+Error: Error when evaluating engine jsrender for template /report-royalt-person
+(because) cannot read properties of null (reading 'currency_id')
+  at module.exports (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:53:12)
+  at executeEngine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:377:35)
+  at async engine.engine (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:162:14)
+  at async invokeRender (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:61:23)
+  at async WorkerReporter._render (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:148:7)
+  at async /home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:233:24
+  at async processAndResponse (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:42:17) rootId=tuu4m8lyk7eaada, id=tuu4m8lyk7eaada
+2025-10-08T00:59:58.507Z - warn: Rendering request 13 finished with error in 41 ms rootId=tuu4m8lyk7eaada, id=tuu4m8lyk7eaada
+2025-10-08T00:59:58.511Z - warn: Error during processing request at http://localhost:5488/api/report
+2025-10-08T01:02:55.744Z - info: Render request 14 queued for execution and waiting for available worker rootId=09921d8pzbazba3, id=09921d8pzbazba3
+2025-10-08T01:02:55.750Z - info: Starting rendering request 14 rootId=09921d8pzbazba3, id=09921d8pzbazba3
+2025-10-08T01:02:55.750Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=09921d8pzbazba3, id=09921d8pzbazba3
+2025-10-08T01:02:55.937Z - info: Rendering request 14 finished in 194 ms rootId=09921d8pzbazba3, id=09921d8pzbazba3
+2025-10-08T01:09:41.333Z - info: Render request 15 queued for execution and waiting for available worker rootId=t5wc76cmtmcjr0p, id=t5wc76cmtmcjr0p
+2025-10-08T01:09:41.338Z - info: Starting rendering request 15 rootId=t5wc76cmtmcjr0p, id=t5wc76cmtmcjr0p
+2025-10-08T01:09:41.339Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=t5wc76cmtmcjr0p, id=t5wc76cmtmcjr0p
+2025-10-08T01:09:41.529Z - info: Rendering request 15 finished in 197 ms rootId=t5wc76cmtmcjr0p, id=t5wc76cmtmcjr0p
+2025-10-08T01:13:45.173Z - info: Render request 16 queued for execution and waiting for available worker rootId=yqj412svthtrpy2, id=yqj412svthtrpy2
+2025-10-08T01:13:45.182Z - info: Starting rendering request 16 rootId=yqj412svthtrpy2, id=yqj412svthtrpy2
+2025-10-08T01:13:45.182Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=yqj412svthtrpy2, id=yqj412svthtrpy2
+2025-10-08T01:13:45.362Z - info: Rendering request 16 finished in 191 ms rootId=yqj412svthtrpy2, id=yqj412svthtrpy2
