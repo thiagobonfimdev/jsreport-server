@@ -1,0 +1,35 @@
+{
+  "statementType": "person",
+  "collaborator": {
+    "public_name": "Ana Silva (Artista)",
+    "address": "Rua das Flores, 456",
+    "postal_code": "54321-000",
+    "city": "Recife",
+    "country": "Brasil",
+    "person_id": "BRA12345678",
+    "id": "C112233"
+  },
+  "registrant": {
+    "public_name": "Playback ApS",
+    "address": "Toldbodgade 89",
+    "postal_code": "1253",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "organisation_number": "43092847",
+    "vat_number": "DK43092847",
+    "id": "R998877"
+  },
+  "statementNo": "C112233-0001",
+  "dateIssued": "08/10/2025",
+  "periodCovered": "01/01/2024 - 31/06/2025",
+  "currency": "DKK",
+  "lineItems": [
+    { "description": "Royalties (current)", "period": "01.01.25-31.06.25", "amount": "461.78" },
+    { "description": "Royalties (previously accrued)", "period": "01.07.24-31.12.24", "amount": "164.45" },
+    { "description": "Royalties (previously accrued)", "period": "01.01.24-31.06.24", "amount": "183.22" }
+  ],
+  "paymentThreshold": "1,000.00",
+  "accruedRoyalty": "809.45",
+  "belowThresholdBy": "190.55",
+  "balanceCarriedForward": "809.45 DKK"
+}

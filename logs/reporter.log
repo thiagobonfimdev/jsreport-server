@@ -5714,3 +5714,125 @@ Error: Error when evaluating engine jsrender for template /report-royalt-person
 2025-10-08T01:13:45.182Z - info: Starting rendering request 16 rootId=yqj412svthtrpy2, id=yqj412svthtrpy2
 2025-10-08T01:13:45.182Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=yqj412svthtrpy2, id=yqj412svthtrpy2
 2025-10-08T01:13:45.362Z - info: Rendering request 16 finished in 191 ms rootId=yqj412svthtrpy2, id=yqj412svthtrpy2
+2025-10-08T15:04:47.857Z - info: Initializing jsreport (version: 4.9.0, configuration file: jsreport.config.json, nodejs: 21.6.0)
+2025-10-08T15:04:47.862Z - info: Searching for available extensions in /home/thiago/Documentos/Playback/jsreportapp/
+2025-10-08T15:04:47.865Z - info: Extensions location cache not found, crawling directories
+2025-10-08T15:04:48.103Z - info: Found 35 extension(s)
+2025-10-08T15:04:48.216Z - info: Using extension base@4.0.0
+2025-10-08T15:04:48.225Z - info: Using extension child-templates@4.1.0
+2025-10-08T15:04:48.231Z - info: Using extension cli@4.1.1
+2025-10-08T15:04:48.236Z - info: Using extension components@4.0.2
+2025-10-08T15:04:48.237Z - info: Using extension data@4.1.0
+2025-10-08T15:04:48.239Z - info: Using extension express@4.2.0
+2025-10-08T15:04:48.689Z - info: Using extension freeze@4.0.0
+2025-10-08T15:04:48.692Z - info: Using extension fs-store@4.1.1
+2025-10-08T15:04:48.832Z - info: Using extension handlebars@4.0.1
+2025-10-08T15:04:48.834Z - info: Using extension import-export@4.0.7
+2025-10-08T15:04:48.845Z - info: Using extension jsrender@4.0.0
+2025-10-08T15:04:48.847Z - info: Using extension licensing@4.0.5
+2025-10-08T15:04:48.931Z - info: Using extension localization@4.0.1
+2025-10-08T15:04:48.932Z - info: Using extension npm@4.0.0
+2025-10-08T15:04:48.936Z - info: Using extension pdf-utils@4.3.0
+2025-10-08T15:04:48.939Z - info: Using extension reports@4.1.4
+2025-10-08T15:04:48.943Z - info: Using extension tags@4.0.1
+2025-10-08T15:04:48.945Z - info: Using extension text@4.0.2
+2025-10-08T15:04:48.946Z - info: Using extension version-control@4.1.1
+2025-10-08T15:04:48.956Z - info: Using extension assets@4.2.2
+2025-10-08T15:04:48.970Z - info: Using extension authorization@4.1.0
+2025-10-08T15:04:48.976Z - info: Using extension browser-client@4.1.0
+2025-10-08T15:04:48.980Z - info: Using extension chrome-pdf@4.2.0
+2025-10-08T15:04:48.988Z - info: Using extension docx@4.8.0
+2025-10-08T15:04:48.991Z - info: Using extension html-to-xlsx@4.2.1
+2025-10-08T15:04:49.286Z - info: html-to-xlsx detected chrome as available html engine
+2025-10-08T15:04:49.286Z - info: Using extension pptx@4.4.1
+2025-10-08T15:04:49.289Z - info: Using extension scheduling@4.1.0
+2025-10-08T15:04:49.331Z - info: Using extension scripts@4.2.0
+2025-10-08T15:04:49.333Z - info: Using extension static-pdf@4.1.0
+2025-10-08T15:04:49.334Z - info: Using extension studio@4.3.1
+2025-10-08T15:04:49.451Z - info: Using extension xlsx@4.4.1
+2025-10-08T15:04:49.454Z - info: Using extension public-templates@4.0.0
+2025-10-08T15:04:49.456Z - info: Using extension sample-template@4.0.1
+2025-10-08T15:04:49.459Z - info: Using extension studio-theme-dark@4.0.0
+2025-10-08T15:04:49.461Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-10-08T15:04:49.461Z - info: Using fs provider for template store.
+2025-10-08T15:04:49.469Z - info: fs store is persisting using fs for /home/thiago/Documentos/Playback/jsreportapp/data
+2025-10-08T15:04:49.477Z - info: fs store is loading data
+2025-10-08T15:04:49.508Z - info: fs store is initialized successfully
+2025-10-08T15:04:49.528Z - info: Creating default express app.
+2025-10-08T15:04:49.557Z - info: jsreport server successfully started on http port: 5488
+2025-10-08T15:04:49.559Z - info: Verifying license key free
+2025-10-08T15:04:50.717Z - info: Using enterprise trial license
+2025-10-08T15:04:50.725Z - info: Initializing worker threads
+2025-10-08T15:04:51.137Z - info: 2 worker threads initialized in 412ms
+2025-10-08T15:04:51.138Z - info: Starting temp files cleanup with 180000ms threshold
+2025-10-08T15:04:51.138Z - info: reporter initialized
+2025-10-08T15:14:36.536Z - error: Error when processing OData POST: /odata/templates Error: Entity with name "report-royalt-bellow" already exists at the root level.
+    at module.exports (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:53:12)
+    at validateDuplicatedName (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/main/folders/validateDuplicatedName.js:93:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.insert (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:141:5)
+2025-10-08T15:14:41.866Z - error: Error when processing OData POST: /odata/templates Error: Entity with name "report-royalt-bellow" already exists at the root level.
+    at module.exports (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:53:12)
+    at validateDuplicatedName (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/main/folders/validateDuplicatedName.js:93:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.insert (/home/thiago/Documentos/Playback/jsreportapp/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:141:5)
+2025-10-08T15:15:03.635Z - info: Render request 1 queued for execution and waiting for available worker rootId=epwcayxsc17sdyz, id=epwcayxsc17sdyz
+2025-10-08T15:15:03.662Z - info: Starting rendering request 1 rootId=epwcayxsc17sdyz, id=epwcayxsc17sdyz
+2025-10-08T15:15:03.663Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: true } rootId=epwcayxsc17sdyz, id=epwcayxsc17sdyz
+2025-10-08T15:15:05.143Z - info: Rendering request 1 finished in 1513 ms rootId=epwcayxsc17sdyz, id=epwcayxsc17sdyz
+2025-10-08T15:19:38.832Z - info: Render request 2 queued for execution and waiting for available worker rootId=9rkqc14hlbz1p8d, id=9rkqc14hlbz1p8d
+2025-10-08T15:19:38.844Z - info: Starting rendering request 2 rootId=9rkqc14hlbz1p8d, id=9rkqc14hlbz1p8d
+2025-10-08T15:19:38.846Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=9rkqc14hlbz1p8d, id=9rkqc14hlbz1p8d
+2025-10-08T15:19:39.803Z - info: Rendering request 2 finished in 973 ms rootId=9rkqc14hlbz1p8d, id=9rkqc14hlbz1p8d
+2025-10-08T15:23:12.959Z - info: Render request 3 queued for execution and waiting for available worker rootId=eccsoyhdxfu1is8, id=eccsoyhdxfu1is8
+2025-10-08T15:23:12.970Z - info: Starting rendering request 3 rootId=eccsoyhdxfu1is8, id=eccsoyhdxfu1is8
+2025-10-08T15:23:12.970Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=eccsoyhdxfu1is8, id=eccsoyhdxfu1is8
+2025-10-08T15:23:13.204Z - info: Rendering request 3 finished in 247 ms rootId=eccsoyhdxfu1is8, id=eccsoyhdxfu1is8
+2025-10-08T15:39:33.364Z - info: Render request 4 queued for execution and waiting for available worker rootId=o0wbrlx48f7rxmq, id=o0wbrlx48f7rxmq
+2025-10-08T15:39:33.367Z - info: Starting rendering request 4 rootId=o0wbrlx48f7rxmq, id=o0wbrlx48f7rxmq
+2025-10-08T15:39:33.368Z - info: Rendering template { name: report-royalt-person, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=o0wbrlx48f7rxmq, id=o0wbrlx48f7rxmq
+2025-10-08T15:39:33.449Z - info: Rendering request 4 finished in 85 ms rootId=o0wbrlx48f7rxmq, id=o0wbrlx48f7rxmq
+2025-10-08T15:48:29.948Z - info: Render request 5 queued for execution and waiting for available worker rootId=v41k86djarddta6, id=v41k86djarddta6
+2025-10-08T15:48:29.950Z - info: Starting rendering request 5 rootId=v41k86djarddta6, id=v41k86djarddta6
+2025-10-08T15:48:29.950Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=v41k86djarddta6, id=v41k86djarddta6
+2025-10-08T15:48:30.024Z - info: Rendering request 5 finished in 76 ms rootId=v41k86djarddta6, id=v41k86djarddta6
+2025-10-08T15:50:49.379Z - info: Render request 6 queued for execution and waiting for available worker rootId=nadrz29fk3d7dxj, id=nadrz29fk3d7dxj
+2025-10-08T15:50:49.381Z - info: Starting rendering request 6 rootId=nadrz29fk3d7dxj, id=nadrz29fk3d7dxj
+2025-10-08T15:50:49.381Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=nadrz29fk3d7dxj, id=nadrz29fk3d7dxj
+2025-10-08T15:50:49.452Z - info: Rendering request 6 finished in 74 ms rootId=nadrz29fk3d7dxj, id=nadrz29fk3d7dxj
+2025-10-08T15:51:51.062Z - info: Render request 7 queued for execution and waiting for available worker rootId=szlghlebpgm13ua, id=szlghlebpgm13ua
+2025-10-08T15:51:51.080Z - info: Starting rendering request 7 rootId=szlghlebpgm13ua, id=szlghlebpgm13ua
+2025-10-08T15:51:51.080Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=szlghlebpgm13ua, id=szlghlebpgm13ua
+2025-10-08T15:51:51.258Z - info: Rendering request 7 finished in 197 ms rootId=szlghlebpgm13ua, id=szlghlebpgm13ua
+2025-10-08T15:54:20.366Z - info: Render request 8 queued for execution and waiting for available worker rootId=nk53r61g77z86bf, id=nk53r61g77z86bf
+2025-10-08T15:54:20.381Z - info: Starting rendering request 8 rootId=nk53r61g77z86bf, id=nk53r61g77z86bf
+2025-10-08T15:54:20.381Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=nk53r61g77z86bf, id=nk53r61g77z86bf
+2025-10-08T15:54:20.582Z - info: Rendering request 8 finished in 218 ms rootId=nk53r61g77z86bf, id=nk53r61g77z86bf
+2025-10-08T15:54:42.382Z - info: Render request 9 queued for execution and waiting for available worker rootId=4m8efu12pucvogs, id=4m8efu12pucvogs
+2025-10-08T15:54:42.400Z - info: Starting rendering request 9 rootId=4m8efu12pucvogs, id=4m8efu12pucvogs
+2025-10-08T15:54:42.400Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=4m8efu12pucvogs, id=4m8efu12pucvogs
+2025-10-08T15:54:42.582Z - info: Rendering request 9 finished in 202 ms rootId=4m8efu12pucvogs, id=4m8efu12pucvogs
+2025-10-08T15:58:55.749Z - info: Render request 10 queued for execution and waiting for available worker rootId=x8xy8ho1q24fwwf, id=x8xy8ho1q24fwwf
+2025-10-08T15:58:55.756Z - info: Starting rendering request 10 rootId=x8xy8ho1q24fwwf, id=x8xy8ho1q24fwwf
+2025-10-08T15:58:55.756Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=x8xy8ho1q24fwwf, id=x8xy8ho1q24fwwf
+2025-10-08T15:58:55.950Z - info: Rendering request 10 finished in 202 ms rootId=x8xy8ho1q24fwwf, id=x8xy8ho1q24fwwf
+2025-10-08T16:01:46.491Z - info: Render request 11 queued for execution and waiting for available worker rootId=wi2nophq3soz6wl, id=wi2nophq3soz6wl
+2025-10-08T16:01:46.503Z - info: Starting rendering request 11 rootId=wi2nophq3soz6wl, id=wi2nophq3soz6wl
+2025-10-08T16:01:46.503Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=wi2nophq3soz6wl, id=wi2nophq3soz6wl
+2025-10-08T16:01:46.684Z - info: Rendering request 11 finished in 194 ms rootId=wi2nophq3soz6wl, id=wi2nophq3soz6wl
+2025-10-08T16:03:19.604Z - info: Render request 12 queued for execution and waiting for available worker rootId=3ido7rwtsj0pwl9, id=3ido7rwtsj0pwl9
+2025-10-08T16:03:19.624Z - info: Starting rendering request 12 rootId=3ido7rwtsj0pwl9, id=3ido7rwtsj0pwl9
+2025-10-08T16:03:19.624Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=3ido7rwtsj0pwl9, id=3ido7rwtsj0pwl9
+2025-10-08T16:03:19.807Z - info: Rendering request 12 finished in 204 ms rootId=3ido7rwtsj0pwl9, id=3ido7rwtsj0pwl9
+2025-10-08T16:06:44.404Z - info: Render request 13 queued for execution and waiting for available worker rootId=44aml9dc6i9ro1y, id=44aml9dc6i9ro1y
+2025-10-08T16:06:44.422Z - info: Starting rendering request 13 rootId=44aml9dc6i9ro1y, id=44aml9dc6i9ro1y
+2025-10-08T16:06:44.422Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=44aml9dc6i9ro1y, id=44aml9dc6i9ro1y
+2025-10-08T16:06:44.615Z - info: Rendering request 13 finished in 212 ms rootId=44aml9dc6i9ro1y, id=44aml9dc6i9ro1y
+2025-10-08T16:09:22.815Z - info: Render request 14 queued for execution and waiting for available worker rootId=1it7y98x2mqx1gy, id=1it7y98x2mqx1gy
+2025-10-08T16:09:22.822Z - info: Starting rendering request 14 rootId=1it7y98x2mqx1gy, id=1it7y98x2mqx1gy
+2025-10-08T16:09:22.822Z - info: Rendering template { name: report-royalt-bellow, recipe: chrome-pdf, engine: jsrender, preview: false } rootId=1it7y98x2mqx1gy, id=1it7y98x2mqx1gy
+2025-10-08T16:09:23.007Z - info: Rendering request 14 finished in 193 ms rootId=1it7y98x2mqx1gy, id=1it7y98x2mqx1gy

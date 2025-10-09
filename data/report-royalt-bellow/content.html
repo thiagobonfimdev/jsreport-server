@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Royalty Statement</title>
+    <style>
+        body { font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 10pt; color: #333; }
+        table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+        th, td { padding: 5px 4px; text-align: left; vertical-align: top; word-wrap: break-word; }
+        .main-table > tbody > tr > td { padding-top: 2px; padding-bottom: 2px; }
+        .header-title { font-size: 16pt; font-weight: bold; }
+        .header-subtitle { font-size: 11pt; }
+        .header-logo { font-size: 16pt; font-weight: bold; text-align: right; }
+        .playback-color { color: #6C5CE7; }
+        .section-title { font-weight: bold; color: #888; font-size: 8pt; padding-bottom: 0; }
+        .text-right { text-align: right; }
+        .text-bold { font-weight: bold; }
+        .items-table { margin-top: 20px; border-top: 2px solid #000; border-bottom: 1px solid #000; }
+        .items-table th { border-bottom: 1px solid #000; padding-top: 8px; padding-bottom: 8px; }
+        .items-table td { padding-top: 6px; padding-bottom: 6px; }
+        .summary-table { margin-top: 15px; width: 50%; float: right; }
+        .summary-table td { padding: 3px 4px; }
+        .total-row td { border-top: 2px solid #000; padding-top: 8px; font-weight: bold; font-size: 11pt; }
+        .notes { clear: both; margin-top: 30px; padding-top: 15px; border-top: 1px solid #ccc; }
+        .disclaimer { margin-top: 20px; font-size: 9pt; }
+        .page-footer { margin-top: 40px; padding-top: 10px; border-top: 1px solid #ccc; font-size: 8pt; color: #555; text-align: center; }
+        .page-footer p { margin: 2px 0; }
+    </style>
+</head>
+<body>
+    <table class="main-table">
+        <colgroup><col style="width: 60%" /><col style="width: 40%" /></colgroup>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="header-title">Royalty Statement</div>
+                    <div class="header-subtitle">(Below Payment Threshold)</div>
+                </td>
+                <td class="header-logo"><span class="playback-color">PlayBack</span></td>
+            </tr>
+            <tr><td colspan="2" style="padding-bottom: 10px;"></td></tr>
+            <tr>
+                <td>
+                    <p class="section-title">RECIPIENT (COLLABORATOR)</p>
+                    <p>
+                        <span class="text-bold">
+                            {{if statementType === 'person'}}
+                                {{:collaborator.public_name}}
+                            {{else}}
+                                {{:collaborator.organisation_name}}
+                            {{/if}}
+                        </span><br />
+                        {{:collaborator.address}}<br />
+                        {{:collaborator.postal_code}} {{:collaborator.city}}<br />
+                        {{:collaborator.country}}
+                    </p>
+                    <p>
+                        {{if statementType === 'person'}}
+                            Person ID Number: {{:collaborator.person_id}}
+                        {{else}}
+                            Company Registration Number: {{:collaborator.organisation_number}}<br />
+                            VAT Number: {{:collaborator.vat_number}}
+                        {{/if}}
+                        <br />Client ID: {{:collaborator.id}}
+                    </p>
+                </td>
+                <td>
+                    <p class="section-title">ISSUED BY PLAYBACK ON BEHALF OF (REGISTRANT)</p>
+                    <p>
+                        <span class="text-bold">
+                           {{if registrant.profile_type === 'person'}}
+                                {{:registrant.public_name}}
+                            {{else}}
+                                {{:registrant.organisation_name}}
+                            {{/if}}
+                        </span><br />
+                        {{:registrant.address}}<br />
+                        {{:registrant.postal_code}} {{:registrant.city}}<br />
+                        {{:registrant.country}}
+                    </p>
+                    <p>
+                        Company Registration Number: {{:registrant.organisation_number}}<br />
+                        VAT Number: {{:registrant.vat_number}}<br />
+                        Client ID: {{:registrant.id}}
+                    </p>
+                </td>
+            </tr>
+            <tr><td colspan="2" style="padding-top: 15px;"></td></tr>
+            <tr>
+                <td colspan="2">
+                    <span class="text-bold">Statement No.:</span> {{:statementNo}} &nbsp;&nbsp;&nbsp;
+                    <span class="text-bold">Date Issued:</span> {{:dateIssued}} &nbsp;&nbsp;&nbsp;
+                    <span class="text-bold">Period Covered:</span> {{:periodCovered}} &nbsp;&nbsp;&nbsp;
+                    <span class="text-bold">Currency:</span> {{:currency}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="items-table">
+        <colgroup><col style="width: 50%" /><col style="width: 25%" /><col style="width: 25%" /></colgroup>
+        <thead>
+            <tr><th>Item</th><th>Period</th><th class="text-right">Amount</th></tr>
+        </thead>
+        <tbody>
+            {{for lineItems}}
+            <tr><td>{{:description}}</td><td>{{:period}}</td><td class="text-right">{{:amount}}</td></tr>
+            {{/for}}
+        </tbody>
+    </table>
+
+    <table class="summary-table">
+        <tbody>
+            <tr><td class="text-right text-bold">Payment Threshold:</td><td class="text-right">{{:paymentThreshold}}</td></tr>
+            <tr><td class="text-right text-bold">Accrued Royalty:</td><td class="text-right">{{:accruedRoyalty}}</td></tr>
+            <tr><td class="text-right text-bold">Below Threshold By:</td><td class="text-right">{{:belowThresholdBy}}</td></tr>
+            <tr class="total-row"><td class="text-right">Balance carried forward</td><td class="text-right">{{:balanceCarriedForward}}</td></tr>
+        </tbody>
+    </table>
+
+    <div class="notes">
+        <p class="text-bold">You are currently {{:belowThresholdBy}} {{:currency}} below the payment threshold.</p>
+        <p>Once your total accrued royalties exceed {{:paymentThreshold}} {{:currency}}, a self-billed invoice will be issued automatically.</p>
+    </div>
+
+    <div class="disclaimer">
+        <p>This statement is for information only and does not constitute an invoice. Please retain this document for your records</p>
+    </div>
+
+    <div class="page-footer">
+        <p class="text-bold"><span class="playback-color">Playback ApS</span> - Toldbodgade 89-1253 Copenhagen - Denmark - Company. reg. no.: 43092847</p>
+        <p>info@playback.studio - www.playback.studio</p>
+    </div>
+</body>
+</html>

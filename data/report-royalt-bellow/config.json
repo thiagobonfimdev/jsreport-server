@@ -1,0 +1,20 @@
+{
+    "name": "report-royalt-bellow",
+    "engine": "jsrender",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "3PJeSYjUv"
+    },
+    "shortid": "gEmqhUs17v",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1759936501731
+    },
+    "modificationDate": {
+        "$$date": 1759939671898
+    },
+    "_id": "X6ot4EsKWAVwDHM3",
+    "$entitySet": "templates"
+}
